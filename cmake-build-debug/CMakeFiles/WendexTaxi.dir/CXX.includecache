@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.cpp
+Business.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+string
+-
+iostream
+-
+CarType.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
+CarColor.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
+../Coordinates.h
+/Users/artmurashko/Desktop/WendexTaxi/Coordinates.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.cpp
+ComfortPlus.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Coordinates.h
+

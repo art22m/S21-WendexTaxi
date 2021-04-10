@@ -93,12 +93,12 @@ clean: CMakeFiles/WendexTaxi.dir/clean
 CMakeFiles/WendexTaxi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target WendexTaxi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target WendexTaxi"
 .PHONY : CMakeFiles/WendexTaxi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WendexTaxi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/WendexTaxi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/WendexTaxi.dir/rule

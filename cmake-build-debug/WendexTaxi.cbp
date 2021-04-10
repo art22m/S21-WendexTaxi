@@ -80,6 +80,45 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Coordinates.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/main.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>

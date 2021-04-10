@@ -142,6 +142,141 @@ WendexTaxi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/build
 .PHONY : WendexTaxi/fast
 
+Cars/Business.o: Cars/Business.cpp.o
+
+.PHONY : Cars/Business.o
+
+# target to build an object file
+Cars/Business.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Business.cpp.o
+.PHONY : Cars/Business.cpp.o
+
+Cars/Business.i: Cars/Business.cpp.i
+
+.PHONY : Cars/Business.i
+
+# target to preprocess a source file
+Cars/Business.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Business.cpp.i
+.PHONY : Cars/Business.cpp.i
+
+Cars/Business.s: Cars/Business.cpp.s
+
+.PHONY : Cars/Business.s
+
+# target to generate assembly for a file
+Cars/Business.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Business.cpp.s
+.PHONY : Cars/Business.cpp.s
+
+Cars/Car.o: Cars/Car.cpp.o
+
+.PHONY : Cars/Car.o
+
+# target to build an object file
+Cars/Car.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Car.cpp.o
+.PHONY : Cars/Car.cpp.o
+
+Cars/Car.i: Cars/Car.cpp.i
+
+.PHONY : Cars/Car.i
+
+# target to preprocess a source file
+Cars/Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Car.cpp.i
+.PHONY : Cars/Car.cpp.i
+
+Cars/Car.s: Cars/Car.cpp.s
+
+.PHONY : Cars/Car.s
+
+# target to generate assembly for a file
+Cars/Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Car.cpp.s
+.PHONY : Cars/Car.cpp.s
+
+Cars/Comfort.o: Cars/Comfort.cpp.o
+
+.PHONY : Cars/Comfort.o
+
+# target to build an object file
+Cars/Comfort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Comfort.cpp.o
+.PHONY : Cars/Comfort.cpp.o
+
+Cars/Comfort.i: Cars/Comfort.cpp.i
+
+.PHONY : Cars/Comfort.i
+
+# target to preprocess a source file
+Cars/Comfort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Comfort.cpp.i
+.PHONY : Cars/Comfort.cpp.i
+
+Cars/Comfort.s: Cars/Comfort.cpp.s
+
+.PHONY : Cars/Comfort.s
+
+# target to generate assembly for a file
+Cars/Comfort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Comfort.cpp.s
+.PHONY : Cars/Comfort.cpp.s
+
+Cars/ComfortPlus.o: Cars/ComfortPlus.cpp.o
+
+.PHONY : Cars/ComfortPlus.o
+
+# target to build an object file
+Cars/ComfortPlus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/ComfortPlus.cpp.o
+.PHONY : Cars/ComfortPlus.cpp.o
+
+Cars/ComfortPlus.i: Cars/ComfortPlus.cpp.i
+
+.PHONY : Cars/ComfortPlus.i
+
+# target to preprocess a source file
+Cars/ComfortPlus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/ComfortPlus.cpp.i
+.PHONY : Cars/ComfortPlus.cpp.i
+
+Cars/ComfortPlus.s: Cars/ComfortPlus.cpp.s
+
+.PHONY : Cars/ComfortPlus.s
+
+# target to generate assembly for a file
+Cars/ComfortPlus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/ComfortPlus.cpp.s
+.PHONY : Cars/ComfortPlus.cpp.s
+
+Cars/Economy.o: Cars/Economy.cpp.o
+
+.PHONY : Cars/Economy.o
+
+# target to build an object file
+Cars/Economy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Economy.cpp.o
+.PHONY : Cars/Economy.cpp.o
+
+Cars/Economy.i: Cars/Economy.cpp.i
+
+.PHONY : Cars/Economy.i
+
+# target to preprocess a source file
+Cars/Economy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Economy.cpp.i
+.PHONY : Cars/Economy.cpp.i
+
+Cars/Economy.s: Cars/Economy.cpp.s
+
+.PHONY : Cars/Economy.s
+
+# target to generate assembly for a file
+Cars/Economy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Economy.cpp.s
+.PHONY : Cars/Economy.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +313,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... WendexTaxi"
+	@echo "... Cars/Business.o"
+	@echo "... Cars/Business.i"
+	@echo "... Cars/Business.s"
+	@echo "... Cars/Car.o"
+	@echo "... Cars/Car.i"
+	@echo "... Cars/Car.s"
+	@echo "... Cars/Comfort.o"
+	@echo "... Cars/Comfort.i"
+	@echo "... Cars/Comfort.s"
+	@echo "... Cars/ComfortPlus.o"
+	@echo "... Cars/ComfortPlus.i"
+	@echo "... Cars/ComfortPlus.s"
+	@echo "... Cars/Economy.o"
+	@echo "... Cars/Economy.i"
+	@echo "... Cars/Economy.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

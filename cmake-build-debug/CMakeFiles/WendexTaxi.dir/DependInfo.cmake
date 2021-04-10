@@ -4,6 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Cars/Business.cpp.o"
+  "/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Cars/Car.cpp.o"
+  "/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Cars/Comfort.cpp.o"
+  "/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Cars/ComfortPlus.cpp.o"
+  "/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Cars/Economy.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/main.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
