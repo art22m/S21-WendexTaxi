@@ -1,5 +1,5 @@
 //
-// Created by Артём Мурашко on 10.04.2021.
+// Created by Artem Murashko on 10.04.2021.
 //
 
 #ifndef WENDEXTAXI_BUSINESS_H
@@ -11,7 +11,7 @@ class Business : public Car {
 public:
     Business(std::string model, Coordinates currentCoordinates, CarColor color, std::string number);
 
-public:
+protected:
     void parkRightInFrontOfTheEntrance();
     void setNumberOfBottles(int number);
     void decreaseNumberOfBottles();

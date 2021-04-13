@@ -9,13 +9,13 @@
 #include <iostream>
 #include "CarType.h"
 #include "CarColor.h"
-#include "../Coordinates.h"
+#include "../WendexMaps/Coordinates.h"
 
 class Car {
 protected:
     Car(std::string model, CarType carType, Coordinates currentCoordinates, CarColor color, std::string number);
 
-public:
+protected:
     std::string getModel();
     CarType getCarType();
     std::string getCarTypeName();

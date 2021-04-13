@@ -11,10 +11,11 @@ class Comfort : public Car {
 public:
     Comfort(std::string model, Coordinates currentCoordinates, CarColor color, std::string number);
 
-public:
+protected:
     void setNumberOfBottles(int number);
     void decreaseNumberOfBottles();
     int getNumberOfBottles();
+
 private:
     int numberOfBottles = 0;
 };

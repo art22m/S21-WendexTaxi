@@ -277,6 +277,114 @@ Cars/Economy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Economy.cpp.s
 .PHONY : Cars/Economy.cpp.s
 
+Orders/Order.o: Orders/Order.cpp.o
+
+.PHONY : Orders/Order.o
+
+# target to build an object file
+Orders/Order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.o
+.PHONY : Orders/Order.cpp.o
+
+Orders/Order.i: Orders/Order.cpp.i
+
+.PHONY : Orders/Order.i
+
+# target to preprocess a source file
+Orders/Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.i
+.PHONY : Orders/Order.cpp.i
+
+Orders/Order.s: Orders/Order.cpp.s
+
+.PHONY : Orders/Order.s
+
+# target to generate assembly for a file
+Orders/Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.s
+.PHONY : Orders/Order.cpp.s
+
+Users/Passenger.o: Users/Passenger.cpp.o
+
+.PHONY : Users/Passenger.o
+
+# target to build an object file
+Users/Passenger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o
+.PHONY : Users/Passenger.cpp.o
+
+Users/Passenger.i: Users/Passenger.cpp.i
+
+.PHONY : Users/Passenger.i
+
+# target to preprocess a source file
+Users/Passenger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.i
+.PHONY : Users/Passenger.cpp.i
+
+Users/Passenger.s: Users/Passenger.cpp.s
+
+.PHONY : Users/Passenger.s
+
+# target to generate assembly for a file
+Users/Passenger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.s
+.PHONY : Users/Passenger.cpp.s
+
+Users/User.o: Users/User.cpp.o
+
+.PHONY : Users/User.o
+
+# target to build an object file
+Users/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/User.cpp.o
+.PHONY : Users/User.cpp.o
+
+Users/User.i: Users/User.cpp.i
+
+.PHONY : Users/User.i
+
+# target to preprocess a source file
+Users/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/User.cpp.i
+.PHONY : Users/User.cpp.i
+
+Users/User.s: Users/User.cpp.s
+
+.PHONY : Users/User.s
+
+# target to generate assembly for a file
+Users/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/User.cpp.s
+.PHONY : Users/User.cpp.s
+
+WendexMaps/Address.o: WendexMaps/Address.cpp.o
+
+.PHONY : WendexMaps/Address.o
+
+# target to build an object file
+WendexMaps/Address.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o
+.PHONY : WendexMaps/Address.cpp.o
+
+WendexMaps/Address.i: WendexMaps/Address.cpp.i
+
+.PHONY : WendexMaps/Address.i
+
+# target to preprocess a source file
+WendexMaps/Address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.i
+.PHONY : WendexMaps/Address.cpp.i
+
+WendexMaps/Address.s: WendexMaps/Address.cpp.s
+
+.PHONY : WendexMaps/Address.s
+
+# target to generate assembly for a file
+WendexMaps/Address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.s
+.PHONY : WendexMaps/Address.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -328,6 +436,18 @@ help:
 	@echo "... Cars/Economy.o"
 	@echo "... Cars/Economy.i"
 	@echo "... Cars/Economy.s"
+	@echo "... Orders/Order.o"
+	@echo "... Orders/Order.i"
+	@echo "... Orders/Order.s"
+	@echo "... Users/Passenger.o"
+	@echo "... Users/Passenger.i"
+	@echo "... Users/Passenger.s"
+	@echo "... Users/User.o"
+	@echo "... Users/User.i"
+	@echo "... Users/User.s"
+	@echo "... WendexMaps/Address.o"
+	@echo "... WendexMaps/Address.i"
+	@echo "... WendexMaps/Address.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -116,7 +116,34 @@
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Coordinates.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/User.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/User.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMoney/PaymentMethods.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/main.cpp">

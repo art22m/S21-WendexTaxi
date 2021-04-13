@@ -1,5 +1,5 @@
 //
-// Created by Артём Мурашко on 10.04.2021.
+// Created by Artem Murashko on 10.04.2021.
 //
 
 #include "Business.h"
