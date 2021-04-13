@@ -1,5 +1,5 @@
 //
-// Created by Артём Мурашко on 13.04.2021.
+// Created by Artem Murashko on 13.04.2021.
 //
 
 #include "User.h"
@@ -15,4 +15,8 @@ std::string User::getName() {
 
 double User::getRating() {
     return rating;
+}
+
+void User::changeRating(double rate) {
+    rating += rate;
 }

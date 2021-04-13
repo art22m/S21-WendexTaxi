@@ -13,7 +13,10 @@ public:
 
 public:
     void changePaymentMethod();
-    void pinAddress();
+    void pinAddress(const Address& address);
+    std::vector <Address> getPinnedAddresses();
+    void addOrder(const Order& order);
+    std::vector <Order> getOrderHistory();
 
 private:
     PaymentMethods paymentMethod;

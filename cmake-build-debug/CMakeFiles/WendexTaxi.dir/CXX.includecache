@@ -6,6 +6,62 @@
 
 #IncludeRegexTransform: 
 
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.cpp
+Business.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.cpp
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+string
+-
+iostream
+-
+CarType.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
+CarColor.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
+../WendexMaps/Coordinates.h
+/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.cpp
+Comfort.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.cpp
+ComfortPlus.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.cpp
+Economy.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.cpp
+Order.h
+/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
+
 /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
 ../WendexMaps/Address.h
 /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
@@ -15,6 +71,10 @@ Passenger.h
 /Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
+User.h
+/Users/artmurashko/Desktop/WendexTaxi/Users/User.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Users/User.cpp
 User.h
 /Users/artmurashko/Desktop/WendexTaxi/Users/User.h
 
@@ -32,6 +92,10 @@ vector
 ../Orders/Order.h
 /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
 
+/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.cpp
+Address.h
+/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
+
 /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
 string
 -
@@ -41,4 +105,14 @@ Coordinates.h
 /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
 
 /Users/artmurashko/Desktop/WendexTaxi/WendexMoney/PaymentMethods.h
+
+/Users/artmurashko/Desktop/WendexTaxi/main.cpp
+iostream
+-
+Cars/Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+Cars/Economy.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h
+Cars/Comfort.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h
 

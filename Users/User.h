@@ -1,5 +1,5 @@
 //
-// Created by Артём Мурашко on 13.04.2021.
+// Created by Artem Murashko on 13.04.2021.
 //
 
 #ifndef WENDEXTAXI_USER_H
@@ -20,7 +20,7 @@ protected:
 public:
     std::string getName();
     double getRating();
-
+    void changeRating(double rate);
 private:
     std::string name;
     double rating;
