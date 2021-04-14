@@ -20,3 +20,12 @@ double User::getRating() {
 void User::changeRating(double rate) {
     rating += rate;
 }
+
+void User::addOrder(const Order& order) {
+    orderHistory.push_back(order);
+    std::cout << "\n Order added successfully \n";
+}
+
+std::vector<Order> User::getOrderHistory() {
+    return orderHistory;
+}

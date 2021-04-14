@@ -6,22 +6,20 @@
 #define WENDEXTAXI_PASSENGER_H
 
 #include "User.h"
+#include "../Gateways/PassengerGateway.h"
 
 class Passenger: public User {
 public:
     Passenger(std::string name, double rating);
 
 public:
-    void changePaymentMethod();
-    void pinAddress(const Address& address);
-    std::vector <Address> getPinnedAddresses();
-    void addOrder(const Order& order);
-    std::vector <Order> getOrderHistory();
+    PaymentMethods getPaymentMethod();
+    void setPaymentMethod(PaymentMethods newPaymentMethod);
 
 private:
     PaymentMethods paymentMethod;
     std::vector <Address> pinnedAddresses;
-    std::vector <Order> orderHistory;
+    friend class PassengerGateway; // give access to all fields of Passenger class for PassengerGateway class
 };
 
 

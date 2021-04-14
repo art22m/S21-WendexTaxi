@@ -277,6 +277,60 @@ Cars/Economy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Cars/Economy.cpp.s
 .PHONY : Cars/Economy.cpp.s
 
+Gateways/DriverGateway.o: Gateways/DriverGateway.cpp.o
+
+.PHONY : Gateways/DriverGateway.o
+
+# target to build an object file
+Gateways/DriverGateway.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o
+.PHONY : Gateways/DriverGateway.cpp.o
+
+Gateways/DriverGateway.i: Gateways/DriverGateway.cpp.i
+
+.PHONY : Gateways/DriverGateway.i
+
+# target to preprocess a source file
+Gateways/DriverGateway.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.i
+.PHONY : Gateways/DriverGateway.cpp.i
+
+Gateways/DriverGateway.s: Gateways/DriverGateway.cpp.s
+
+.PHONY : Gateways/DriverGateway.s
+
+# target to generate assembly for a file
+Gateways/DriverGateway.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.s
+.PHONY : Gateways/DriverGateway.cpp.s
+
+Gateways/PassengerGateway.o: Gateways/PassengerGateway.cpp.o
+
+.PHONY : Gateways/PassengerGateway.o
+
+# target to build an object file
+Gateways/PassengerGateway.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o
+.PHONY : Gateways/PassengerGateway.cpp.o
+
+Gateways/PassengerGateway.i: Gateways/PassengerGateway.cpp.i
+
+.PHONY : Gateways/PassengerGateway.i
+
+# target to preprocess a source file
+Gateways/PassengerGateway.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.i
+.PHONY : Gateways/PassengerGateway.cpp.i
+
+Gateways/PassengerGateway.s: Gateways/PassengerGateway.cpp.s
+
+.PHONY : Gateways/PassengerGateway.s
+
+# target to generate assembly for a file
+Gateways/PassengerGateway.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.s
+.PHONY : Gateways/PassengerGateway.cpp.s
+
 Orders/Order.o: Orders/Order.cpp.o
 
 .PHONY : Orders/Order.o
@@ -303,6 +357,33 @@ Orders/Order.s: Orders/Order.cpp.s
 Orders/Order.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.s
 .PHONY : Orders/Order.cpp.s
+
+Users/Driver.o: Users/Driver.cpp.o
+
+.PHONY : Users/Driver.o
+
+# target to build an object file
+Users/Driver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o
+.PHONY : Users/Driver.cpp.o
+
+Users/Driver.i: Users/Driver.cpp.i
+
+.PHONY : Users/Driver.i
+
+# target to preprocess a source file
+Users/Driver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.i
+.PHONY : Users/Driver.cpp.i
+
+Users/Driver.s: Users/Driver.cpp.s
+
+.PHONY : Users/Driver.s
+
+# target to generate assembly for a file
+Users/Driver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.s
+.PHONY : Users/Driver.cpp.s
 
 Users/Passenger.o: Users/Passenger.cpp.o
 
@@ -436,9 +517,18 @@ help:
 	@echo "... Cars/Economy.o"
 	@echo "... Cars/Economy.i"
 	@echo "... Cars/Economy.s"
+	@echo "... Gateways/DriverGateway.o"
+	@echo "... Gateways/DriverGateway.i"
+	@echo "... Gateways/DriverGateway.s"
+	@echo "... Gateways/PassengerGateway.o"
+	@echo "... Gateways/PassengerGateway.i"
+	@echo "... Gateways/PassengerGateway.s"
 	@echo "... Orders/Order.o"
 	@echo "... Orders/Order.i"
 	@echo "... Orders/Order.s"
+	@echo "... Users/Driver.o"
+	@echo "... Users/Driver.i"
+	@echo "... Users/Driver.s"
 	@echo "... Users/Passenger.o"
 	@echo "... Users/Passenger.i"
 	@echo "... Users/Passenger.s"

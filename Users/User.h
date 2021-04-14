@@ -21,9 +21,13 @@ public:
     std::string getName();
     double getRating();
     void changeRating(double rate);
+    void addOrder(const Order& order);
+    std::vector <Order> getOrderHistory();
+
 private:
     std::string name;
     double rating;
+    std::vector <Order> orderHistory;
 };
 
 

@@ -116,10 +116,28 @@
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.cpp">

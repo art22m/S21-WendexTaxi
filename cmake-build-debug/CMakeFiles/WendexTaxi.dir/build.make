@@ -206,6 +206,45 @@ CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.cpp -o CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.s
 
+CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: CMakeFiles/WendexTaxi.dir/flags.make
+CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../Users/Driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o -c /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp
+
+CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp > CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.i
+
+CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp -o CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.s
+
+CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: CMakeFiles/WendexTaxi.dir/flags.make
+CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: ../Gateways/PassengerGateway.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o -c /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.cpp
+
+CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.cpp > CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.i
+
+CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.cpp -o CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.s
+
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: CMakeFiles/WendexTaxi.dir/flags.make
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Gateways/DriverGateway.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o -c /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp
+
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp > CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.i
+
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp -o CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.s
+
 # Object files for target WendexTaxi
 WendexTaxi_OBJECTS = \
 "CMakeFiles/WendexTaxi.dir/main.cpp.o" \
@@ -217,7 +256,10 @@ WendexTaxi_OBJECTS = \
 "CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o" \
 "CMakeFiles/WendexTaxi.dir/Users/User.cpp.o" \
 "CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o" \
-"CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.o"
+"CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.o" \
+"CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o" \
+"CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o" \
+"CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o"
 
 # External object files for target WendexTaxi
 WendexTaxi_EXTERNAL_OBJECTS =
@@ -232,9 +274,12 @@ WendexTaxi: CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o
 WendexTaxi: CMakeFiles/WendexTaxi.dir/Users/User.cpp.o
 WendexTaxi: CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o
 WendexTaxi: CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.o
+WendexTaxi: CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o
+WendexTaxi: CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o
+WendexTaxi: CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o
 WendexTaxi: CMakeFiles/WendexTaxi.dir/build.make
 WendexTaxi: CMakeFiles/WendexTaxi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable WendexTaxi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable WendexTaxi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WendexTaxi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

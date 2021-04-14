@@ -12,6 +12,7 @@ class Address {
 public:
     Address(std::string address, Coordinates coordinates);
     Address();
+
 public:
     std::string getAddress();
     Coordinates getCoordinates();
