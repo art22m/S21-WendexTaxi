@@ -170,6 +170,9 @@
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMoney/PaymentMethods.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexTaxi.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/main.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>

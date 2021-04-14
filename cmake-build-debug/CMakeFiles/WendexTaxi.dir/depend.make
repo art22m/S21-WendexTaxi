@@ -121,11 +121,23 @@ CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o: ../WendexMaps/Address.cpp
 CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o: ../WendexMaps/Address.h
 CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o: ../WendexMaps/Coordinates.h
 
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Cars/Business.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Cars/Car.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Cars/CarColor.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Cars/Comfort.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Cars/ComfortPlus.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Cars/Economy.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Gateways/DriverGateway.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Gateways/PassengerGateway.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Orders/Order.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Service/System.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Users/Driver.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Users/Passenger.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Users/User.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../WendexMaps/Address.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../WendexMaps/Coordinates.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../WendexMoney/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../WendexTaxi.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../main.cpp
 

@@ -10,7 +10,7 @@
 
 class Order {
 public:
-    Order(Address from, Address to, double price, int time);
+    Order(Address from, Address to, double price, int time, CarType carType);
 
 public:
     Address getFrom();

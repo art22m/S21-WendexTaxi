@@ -22,8 +22,11 @@ public:
     void deleteOnlineDrive(Driver driver);
     void addOnlineDriver(Driver driver);
     void deleteOrder(Order &order);
-    void addOrder(Order &order);
+    void addOrder(Order order);
+    void findAvailableOrder(Driver &driver);
+    std::vector <Order> getActiveOrders();
     double getPrice(Address from, Address to, CarType carType);
+    int getNumberOfActiveOrders();
 
 private:
     std::vector <Order> activeOrders;

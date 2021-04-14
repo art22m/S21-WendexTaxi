@@ -24,7 +24,7 @@ void User::changeRating(double rate) {
 
 void User::addOrder(const Order& order) {
     orderHistory.push_back(order);
-    std::cout << "\n Order added successfully \n";
+    std::cout << "Order added to "<< getName() << "'s history\n";
 }
 
 std::vector<Order> User::getOrderHistory() {

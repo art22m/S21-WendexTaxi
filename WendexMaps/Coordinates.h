@@ -6,6 +6,7 @@
 #define WENDEXTAXI_COORDINATES_H
 
 #include <random>
+#include <time.h>
 
 struct Coordinates {
     double x;
@@ -17,12 +18,13 @@ struct Coordinates {
     }
 
     Coordinates() {
-        std::uniform_real_distribution<double> unif(0, 100);
-        std::default_random_engine re;
-        auto dice {std::bind(unif, re)};
+        std::random_device rd;
+        std::default_random_engine eng(rd());
+        std::uniform_real_distribution<double> distr(1, 100);
 
-        this -> x = dice();
-        this -> y = dice();
+
+        this -> x = distr(eng);
+        this -> y = distr(eng);
     }
 };
 

@@ -4,11 +4,12 @@
 
 #include "Order.h"
 
-Order::Order(Address from, Address to, double price, int time) {
+Order::Order(Address from, Address to, double price, int time, CarType carType) {
     this -> from = from;
     this -> to = to;
     this -> price = price;
     this -> time = time;
+    this -> carType = carType;
 }
 
 Address Order::getFrom() {

@@ -6,7 +6,7 @@
 
 Driver::Driver(std::string name, double rating, std::string phoneNumber, Car *car) : User(name, rating, phoneNumber) {
     this -> car = car;
-    isBusy = false;
+    this -> isBusy = false;
 }
 
 bool Driver::getBusyStatus() {
@@ -15,4 +15,8 @@ bool Driver::getBusyStatus() {
 
 void Driver::setBusyStatus(bool status) {
     isBusy = status;
+}
+
+Car Driver::getCar() {
+    return *car;
 }

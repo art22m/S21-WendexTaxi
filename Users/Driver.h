@@ -15,9 +15,10 @@ public:
 public:
     bool getBusyStatus();
     void setBusyStatus(bool status);
+    Car getCar();
 
 private:
-   Car* car;
+   Car *car;
    bool isBusy;
 };
 

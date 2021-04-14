@@ -17,12 +17,12 @@ void PassengerGateway::changePaymentMethod(Passenger &passenger) {
         passenger.setPaymentMethod(PaymentMethods::cash);
     else
         passenger.setPaymentMethod(PaymentMethods::card);
-    std::cout << "\n Payment method added successfully \n";
+    std::cout << "\nPayment method added successfully \n";
 }
 
 void PassengerGateway::pinAddress(Passenger &passenger, Address address) {
     passenger.pinnedAddresses.push_back(address);
-    std::cout << "\n Address added successfully \n";
+    std::cout << "\nAddress added successfully \n";
 }
 
 std::vector<Address> PassengerGateway::getPinnedAddresses(Passenger &passenger) {
@@ -34,14 +34,14 @@ std::vector<Order> PassengerGateway::getOrderHistory(Passenger &passenger) {
 }
 
 void PassengerGateway::seeOrderHistory(Passenger &passenger) {
-    std::cout << "\n Order history: \n";
+    std::cout << "\nOrder history: \n";
     for (auto i : getOrderHistory(passenger)) {
         std::cout << "From " << i.getFrom().getAddress() << " to " << i.getTo().getAddress() << " Cost: " << i.getPrice() << std::endl;
     }
 }
 
 void PassengerGateway::seePinnedAddresses(Passenger &passenger) {
-    std::cout << "\n Pinned addresses: \n";
+    std::cout << "\nPinned addresses: \n";
     for (auto i : getPinnedAddresses(passenger)) {
         std::cout << "From " << i.getAddress() << std::endl;
     }
@@ -50,19 +50,20 @@ void PassengerGateway::seePinnedAddresses(Passenger &passenger) {
 void PassengerGateway::createOrder(Passenger &passenger, Address from, Address to, CarType type) {
     double rideCost = System::getInstance() -> getPrice(from, to, type);
 
-    std::uniform_real_distribution<double> unif(10, 60);
-    std::default_random_engine re;
-    auto dice {std::bind(unif, re)};
+    std::random_device rd;
+    std::default_random_engine eng(rd());
+    std::uniform_real_distribution<double> distr(1, 100);
 
-    double time = dice();
+    double time = distr(eng);
 
-    std::cout << "Price of ride will be " << rideCost << "\n Time: " << time << " minutes \n";
+    std::cout << "\nPrice of ride will be " << rideCost << " rubles.\nTime: " << time << " minutes \n";
 
     bool isAccept = true; // User's answer should be here
     if (isAccept) {
-        std::cout << "Accepted \n";
-        Order order(from, to, rideCost, time);
-        System::getInstance() ->addOrder(order);
+        std::cout << "\n" << passenger.getName() << " agree with the terms of the ride\n";
+        Order order(from, to, rideCost, time, type);
+        passenger.addOrder(order);
+        System::getInstance() -> addOrder(order);
     }
 }
 
@@ -71,7 +72,7 @@ void PassengerGateway::askCurrentCoordinates(Passenger &passenger) {
     std::default_random_engine re;
     auto dice {std::bind(unif, re)};
 
-    std::cout << "\n Current coordinates: \n" << "x = " << dice() << " y = " << dice() << std::endl;
+    std::cout << "\nCurrent coordinates: \n" << "x = " << dice() << " y = " << dice() << std::endl;
 }
 
 void PassengerGateway::askBill(Passenger &passenger) {

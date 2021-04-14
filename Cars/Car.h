@@ -15,7 +15,7 @@ class Car {
 protected:
     Car(std::string model, CarType carType, Coordinates currentCoordinates, CarColor color, std::string number);
 
-protected:
+public:
     std::string getModel();
     CarType getCarType();
     std::string getCarTypeName();

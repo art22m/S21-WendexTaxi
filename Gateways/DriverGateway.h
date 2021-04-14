@@ -18,8 +18,8 @@ public:
     void seeOrderHistory(Driver &driver);
     void setBusyStatus(Driver &driver, bool status);
     void setOnlineStatus(Driver &driver, bool status);
-    void checkAvailableOrder();
-    void acceptOrder(Driver &driver);
+    void checkAvailableOrders();
+    void findOrder(Driver &driver);
 
     std::vector<Order> getOrderHistory(Driver &driver);
     bool getStatus(Driver &driver);

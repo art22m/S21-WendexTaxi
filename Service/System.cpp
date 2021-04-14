@@ -13,8 +13,18 @@ void System::addOnlineDriver(Driver driver) {
     onlineDrivers.push_back(driver);
 }
 
-void System::addOrder(Order &order) {
+void System::addOrder(Order order) {
+    for (auto &driver : onlineDrivers) {
+//        std::cout << order.getCarType() << "\n";
+        if (driver.getCar().getCarType() == order.getCarType()) {
+            std::cout << driver.getName() << " took order \n";
+            driver.addOrder(order);
+            return;
+        }
+    }
+
     activeOrders.push_back(order);
+    std::cout << "There are no free drivers \n";
 }
 
 void System::deleteOnlineDrive(Driver driver) {
@@ -36,6 +46,27 @@ double System::getPrice(Address from, Address to, CarType carType) {
     return price;
 }
 
+std::vector<Order> System::getActiveOrders() {
+    return activeOrders;
+}
+
 System::System() {
 
+}
+
+int System::getNumberOfActiveOrders() {
+    return activeOrders.size();
+}
+
+void System::findAvailableOrder(Driver &driver) {
+    for (auto order: activeOrders) {
+        std::cout << order.getPrice();
+        if (order.getCarType() == driver.getCar().getCarType()) {
+            std::cout << driver.getName() << " took order \n";
+            driver.addOrder(order);
+            return;
+        }
+    }
+
+    std::cout << "There are no available drivers \n";
 }

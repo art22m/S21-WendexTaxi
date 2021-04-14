@@ -29,5 +29,4 @@ public:
     std::vector <Address> getPinnedAddresses(Passenger &passenger);
 };
 
-
 #endif //WENDEXTAXI_PASSENGERGATEWAY_H

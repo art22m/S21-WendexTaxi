@@ -36,12 +36,6 @@ DriverGateway.h
 vector
 -
 
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.cpp
-PassengerGateway.h
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h
-../Users/Passenger.h
-/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
-
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h
 ../Users/User.h
 /Users/artmurashko/Desktop/WendexTaxi/Users/User.h
@@ -58,10 +52,6 @@ vector
 ../Cars/CarType.h
 /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
 
-/Users/artmurashko/Desktop/WendexTaxi/Service/System.cpp
-System.h
-/Users/artmurashko/Desktop/WendexTaxi/Service/System.h
-
 /Users/artmurashko/Desktop/WendexTaxi/Service/System.h
 ../Orders/Order.h
 /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
@@ -76,19 +66,11 @@ System.h
 vector
 -
 
-/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp
-Driver.h
-/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h
-
 /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h
 User.h
 /Users/artmurashko/Desktop/WendexTaxi/Users/User.h
 ../Cars/Car.h
 /Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.cpp
-Passenger.h
-/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
 User.h
@@ -118,6 +100,8 @@ Coordinates.h
 
 /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
 random
+-
+time.h
 -
 
 /Users/artmurashko/Desktop/WendexTaxi/WendexMoney/PaymentMethods.h
