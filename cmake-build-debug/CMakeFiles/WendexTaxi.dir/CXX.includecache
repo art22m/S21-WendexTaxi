@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
 /Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
 string
 -
@@ -22,9 +26,17 @@ CarColor.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
 
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp
-DriverGateway.h
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
 ../Users/User.h
@@ -105,4 +117,36 @@ time.h
 -
 
 /Users/artmurashko/Desktop/WendexTaxi/WendexMoney/PaymentMethods.h
+
+/Users/artmurashko/Desktop/WendexTaxi/WendexTaxi.h
+Cars/Business.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h
+Cars/Comfort.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h
+Cars/ComfortPlus.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h
+Cars/Economy.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h
+Cars/Car.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
+Cars/CarType.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
+Cars/CarColor.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
+Users/Driver.h
+/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h
+Users/Passenger.h
+/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
+Users/User.h
+/Users/artmurashko/Desktop/WendexTaxi/Users/User.h
+Gateways/DriverGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
+Gateways/PassengerGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h
+
+/Users/artmurashko/Desktop/WendexTaxi/main.cpp
+vector
+-
+WendexTaxi.h
+/Users/artmurashko/Desktop/WendexTaxi/WendexTaxi.h
 

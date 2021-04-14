@@ -60,7 +60,6 @@ int System::getNumberOfActiveOrders() {
 
 void System::findAvailableOrder(Driver &driver) {
     for (auto order: activeOrders) {
-        std::cout << order.getPrice();
         if (order.getCarType() == driver.getCar().getCarType()) {
             std::cout << driver.getName() << " took order \n";
             driver.addOrder(order);

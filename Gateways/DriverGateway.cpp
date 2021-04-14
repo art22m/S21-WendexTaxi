@@ -31,7 +31,7 @@ void DriverGateway::setOnlineStatus(Driver &driver, bool status) {
     }
 
     std::string currentStatus = status ? "online" : "offline";
-    std::cout << driver.getName() << " changed status to " << currentStatus << "\n";
+    std::cout << "\n" << driver.getName() << " changed status to " << currentStatus << "\n";
 }
 
 void DriverGateway::seeOrderHistory(Driver &driver) {
@@ -50,7 +50,8 @@ void DriverGateway::checkAvailableOrders() {
     }
 
     for (auto order : System::getInstance() -> getActiveOrders())
-        std::cout << order.getFrom().getAddress() << " " << order.getTo().getAddress() << " " << order.getPrice() << std::endl;
+        std::cout << order.getFrom().getAddress() << " -> " << order.getTo().getAddress() << " " << order.getPrice() << std::endl;
+    std::cout << "\n";
 }
 
 void DriverGateway::findOrder(Driver &driver) {

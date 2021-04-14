@@ -1,4 +1,3 @@
-#include <iostream>
 #include <vector>
 #include "WendexTaxi.h"
 
@@ -48,12 +47,20 @@ int main() {
     */
     passengerGateway.createOrder(passengers[1], Address("Moscow, RedSquare", Coordinates()), Address("Moscow, MoscowCity", Coordinates()), CarType::economy);
 
+    driverGateway.setOnlineStatus(drivers[0], false); // Set status of Artem to offline
 
-    driverGateway.setOnlineStatus(drivers[3], false); // Set status of driver number 4 to offline
-    passengerGateway.createOrder(passengers[2], Address("Moscow, RedSquare", Coordinates()), Address("Moscow, MoscowCity", Coordinates()), CarType::business);
+    // Passenger Vsevolod create order with type economy.
+    // No one accept, since there are all drivers offline with economy cars.
+    passengerGateway.createOrder(passengers[2], Address("Moscow, RedSquare", Coordinates()), Address("Moscow, MoscowCity", Coordinates()), CarType::economy);
 
-    driverGateway.setOnlineStatus(drivers[3], true);
-    driverGateway.findOrder(drivers[3]);
 
+    // Make Artem online
+    driverGateway.setOnlineStatus(drivers[0], true);
+
+    // Checking available orders (See Vsevolod's order)
+    driverGateway.checkAvailableOrders();
+
+    // Artem want to find available orders and accept Vsevolod's order
+    driverGateway.findOrder(drivers[0]);
     return 0;
 }
