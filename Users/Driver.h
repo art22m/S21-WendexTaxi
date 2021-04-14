@@ -11,7 +11,7 @@
 
 class Driver : public User {
 public:
-    Driver(std::string name, double rating, Car *car);
+    Driver(std::string name, double rating, std::string phoneNumber, Car *car);
 
 private:
    Car* car;

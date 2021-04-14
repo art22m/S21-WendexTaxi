@@ -15,9 +15,13 @@ public:
     DriverGateway();
 
 public:
+    void seeOrderHistory(Driver &driver);
+    void setStatus(Driver &driver, bool status);
+    void checkAvailableOrder();
+    void acceptOrder(Driver &driver);
+
     std::vector<Order> getOrderHistory(Driver &driver);
     bool getStatus(Driver &driver);
-    void setStatus(Driver &driver, bool status);
 };
 
 

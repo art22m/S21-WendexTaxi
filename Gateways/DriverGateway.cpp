@@ -19,5 +19,7 @@ bool DriverGateway::getStatus(Driver &driver) {
 
 void DriverGateway::setStatus(Driver &driver, bool status) {
     driver.isBusy = status;
+    std::string currentStatus = status ? "busy" : "free";
+    std::cout << driver.getName() << " changed status to " << currentStatus;
 }
 

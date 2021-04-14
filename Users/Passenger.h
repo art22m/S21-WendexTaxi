@@ -10,7 +10,7 @@
 
 class Passenger: public User {
 public:
-    Passenger(std::string name, double rating);
+    Passenger(std::string name, double rating, std::string phoneNumber);
 
 public:
     PaymentMethods getPaymentMethod();

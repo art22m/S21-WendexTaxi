@@ -6,10 +6,10 @@
 #define WENDEXTAXI_CARTYPE_H
 
 enum class CarType {
-    economy,
-    comfort,
-    comfortPlus,
-    business
+    economy = 1,
+    comfort = 2,
+    comfortPlus = 3,
+    business = 4
 };
 
 #endif //WENDEXTAXI_CARTYPE_H

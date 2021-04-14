@@ -26,3 +26,7 @@ double Order::getPrice() {
 int Order::getTime() {
     return time;
 }
+
+CarType Order::getCarType() {
+    return carType;
+}

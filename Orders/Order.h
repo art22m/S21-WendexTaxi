@@ -6,6 +6,7 @@
 #define WENDEXTAXI_ORDER_H
 
 #include "../WendexMaps/Address.h"
+#include "../Cars/CarType.h"
 
 class Order {
 public:
@@ -16,12 +17,14 @@ public:
     Address getTo();
     double getPrice();
     int getTime();
+    CarType getCarType();
 
 private:
     Address from;
     Address to;
     double price;
     int time;
+    CarType carType;
 };
 
 

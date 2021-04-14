@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o"
   "CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o"
   "CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.o"
+  "CMakeFiles/WendexTaxi.dir/Service/System.cpp.o"
   "CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o"
   "CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o"
   "CMakeFiles/WendexTaxi.dir/Users/User.cpp.o"

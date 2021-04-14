@@ -358,6 +358,33 @@ Orders/Order.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.s
 .PHONY : Orders/Order.cpp.s
 
+Service/System.o: Service/System.cpp.o
+
+.PHONY : Service/System.o
+
+# target to build an object file
+Service/System.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Service/System.cpp.o
+.PHONY : Service/System.cpp.o
+
+Service/System.i: Service/System.cpp.i
+
+.PHONY : Service/System.i
+
+# target to preprocess a source file
+Service/System.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Service/System.cpp.i
+.PHONY : Service/System.cpp.i
+
+Service/System.s: Service/System.cpp.s
+
+.PHONY : Service/System.s
+
+# target to generate assembly for a file
+Service/System.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Service/System.cpp.s
+.PHONY : Service/System.cpp.s
+
 Users/Driver.o: Users/Driver.cpp.o
 
 .PHONY : Users/Driver.o
@@ -526,6 +553,9 @@ help:
 	@echo "... Orders/Order.o"
 	@echo "... Orders/Order.i"
 	@echo "... Orders/Order.s"
+	@echo "... Service/System.o"
+	@echo "... Service/System.i"
+	@echo "... Service/System.s"
 	@echo "... Users/Driver.o"
 	@echo "... Users/Driver.i"
 	@echo "... Users/Driver.s"

@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.cpp
-Business.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h
-Car.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.cpp
-Car.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
-
 /Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
 string
 -
@@ -33,36 +21,6 @@ CarColor.h
 /Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.cpp
-Comfort.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h
-Car.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.cpp
-ComfortPlus.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h
-Car.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.cpp
-Economy.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h
-Car.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp
-DriverGateway.h
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
-../Users/Driver.h
-/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
 ../Users/User.h
@@ -81,20 +39,30 @@ PassengerGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Users/User.h
 ../Cars/CarType.h
 /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
+../Service/System.h
+/Users/artmurashko/Desktop/WendexTaxi/Service/System.h
 vector
 -
-
-/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.cpp
-Order.h
-/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
 ../WendexMaps/Address.h
 /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
+../Cars/CarType.h
+/Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
 
-/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp
-Driver.h
+/Users/artmurashko/Desktop/WendexTaxi/Service/System.h
+../Orders/Order.h
+/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
+../WendexMaps/Coordinates.h
+/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
+../WendexMaps/Address.h
+/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
+../Users/Passenger.h
+/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
+../Users/Driver.h
 /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h
+vector
+-
 
 /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h
 User.h
@@ -104,19 +72,11 @@ User.h
 ../Gateways/DriverGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
 
-/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.cpp
-Passenger.h
-/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
-
 /Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
 User.h
 /Users/artmurashko/Desktop/WendexTaxi/Users/User.h
 ../Gateways/PassengerGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Users/User.cpp
-User.h
-/Users/artmurashko/Desktop/WendexTaxi/Users/User.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Users/User.h
 string
@@ -132,10 +92,6 @@ vector
 ../Orders/Order.h
 /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
 
-/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.cpp
-Address.h
-/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
-
 /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
 string
 -
@@ -147,14 +103,4 @@ random
 -
 
 /Users/artmurashko/Desktop/WendexTaxi/WendexMoney/PaymentMethods.h
-
-/Users/artmurashko/Desktop/WendexTaxi/main.cpp
-iostream
--
-Cars/Car.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
-Cars/Economy.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h
-Cars/Comfort.h
-/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h
 

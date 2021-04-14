@@ -4,7 +4,7 @@
 
 #include "Driver.h"
 
-Driver::Driver(std::string name, double rating, Car *car) : User(name, rating) {
+Driver::Driver(std::string name, double rating, std::string phoneNumber, Car *car) : User(name, rating, phoneNumber) {
     this -> car = car;
     isBusy = false;
 }

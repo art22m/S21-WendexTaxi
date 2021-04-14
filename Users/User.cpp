@@ -4,9 +4,10 @@
 
 #include "User.h"
 
-User::User(std::string name, double rating) {
+User::User(std::string name, double rating, std::string phoneNumber) {
     this -> name = name;
     this -> rating = rating;
+    this -> phoneNumber = phoneNumber;
 }
 
 std::string User::getName() {
@@ -28,4 +29,8 @@ void User::addOrder(const Order& order) {
 
 std::vector<Order> User::getOrderHistory() {
     return orderHistory;
+}
+
+std::string User::getPhoneNumber() {
+    return phoneNumber;
 }

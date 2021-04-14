@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.o"
+  "/Users/artmurashko/Desktop/WendexTaxi/Service/System.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Service/System.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/Users/User.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Users/User.cpp.o"

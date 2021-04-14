@@ -15,10 +15,11 @@
 
 class User {
 protected:
-    User(std::string name, double rating);
+    User(std::string name, double rating, std::string phoneNumber);
 
 public:
     std::string getName();
+    std::string getPhoneNumber();
     double getRating();
     void changeRating(double rate);
     void addOrder(const Order& order);
@@ -26,6 +27,7 @@ public:
 
 private:
     std::string name;
+    std::string phoneNumber;
     double rating;
     std::vector <Order> orderHistory;
 };

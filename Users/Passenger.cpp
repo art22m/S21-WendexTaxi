@@ -4,7 +4,7 @@
 
 #include "Passenger.h"
 
-Passenger::Passenger(std::string name, double rating) : User(name, rating) {
+Passenger::Passenger(std::string name, double rating, std::string phoneNumber) : User(name, rating, phoneNumber) {
     paymentMethod = PaymentMethods::card;
 }
 
