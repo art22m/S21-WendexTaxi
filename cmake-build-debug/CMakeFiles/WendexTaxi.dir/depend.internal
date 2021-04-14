@@ -41,8 +41,11 @@ CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
+ /Users/artmurashko/Desktop/WendexTaxi/Service/System.h
  /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h
+ /Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h
  /Users/artmurashko/Desktop/WendexTaxi/Users/User.h
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
@@ -51,7 +54,6 @@ CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
- /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.cpp
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
@@ -72,7 +74,6 @@ CMakeFiles/WendexTaxi.dir/Service/System.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
- /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/Service/System.cpp
@@ -87,7 +88,6 @@ CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
- /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp
  /Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h
@@ -99,7 +99,6 @@ CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h
  /Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h
- /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/Service/System.h

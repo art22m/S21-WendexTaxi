@@ -6,6 +6,7 @@
 #include "../Users/Passenger.h"
 
 PassengerGateway::PassengerGateway() {
+
 }
 
 /*
@@ -59,7 +60,7 @@ void PassengerGateway::createOrder(Passenger &passenger, Address from, Address t
 
     bool isAccept = true; // User's answer should be here
     if (isAccept) {
-        std::cout << "Accepted\n";
+        std::cout << "Accepted \n";
         Order order(from, to, rideCost, time);
         System::getInstance() ->addOrder(order);
     }

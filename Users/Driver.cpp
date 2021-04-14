@@ -8,3 +8,11 @@ Driver::Driver(std::string name, double rating, std::string phoneNumber, Car *ca
     this -> car = car;
     isBusy = false;
 }
+
+bool Driver::getBusyStatus() {
+    return isBusy;
+}
+
+void Driver::setBusyStatus(bool status) {
+    isBusy = status;
+}

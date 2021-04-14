@@ -24,10 +24,13 @@ public:
     void changeRating(double rate);
     void addOrder(const Order& order);
     std::vector <Order> getOrderHistory();
+    void setOnlineStatus(bool status);
+    bool getOnlineStatus();
 
 private:
     std::string name;
     std::string phoneNumber;
+    bool isOnline;
     double rating;
     std::vector <Order> orderHistory;
 };

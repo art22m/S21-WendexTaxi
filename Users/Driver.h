@@ -7,17 +7,18 @@
 
 #include "User.h"
 #include "../Cars/Car.h"
-#include "../Gateways/DriverGateway.h"
 
 class Driver : public User {
 public:
     Driver(std::string name, double rating, std::string phoneNumber, Car *car);
 
+public:
+    bool getBusyStatus();
+    void setBusyStatus(bool status);
+
 private:
    Car* car;
    bool isBusy;
-   friend class DriverGateway; // give access to all fields of Driver class for DriverGateway class
 };
-
 
 #endif //WENDEXTAXI_DRIVER_H

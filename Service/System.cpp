@@ -24,7 +24,9 @@ void System::deleteOnlineDrive(Driver driver) {
 }
 
 void System::deleteOrder(Order &order) {
-
+    for (int i = 0; i < activeOrders.size(); ++i)
+        if (activeOrders[i].getPrice() == order.getPrice())
+            activeOrders.erase(activeOrders.begin() + i);
 }
 
 double System::getPrice(Address from, Address to, CarType carType) {

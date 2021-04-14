@@ -34,3 +34,11 @@ std::vector<Order> User::getOrderHistory() {
 std::string User::getPhoneNumber() {
     return phoneNumber;
 }
+
+void User::setOnlineStatus(bool status) {
+    isOnline = status;
+}
+
+bool User::getOnlineStatus() {
+    return isOnline;
+}

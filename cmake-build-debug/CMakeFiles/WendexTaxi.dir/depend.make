@@ -40,8 +40,11 @@ CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Cars/CarColor.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Gateways/DriverGateway.cpp
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Gateways/DriverGateway.h
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Gateways/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Orders/Order.h
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Service/System.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Users/Driver.h
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Users/Passenger.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../Users/User.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../WendexMaps/Address.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../WendexMaps/Coordinates.h
@@ -50,7 +53,6 @@ CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway.cpp.o: ../WendexMoney/PaymentMe
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: ../Cars/Car.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: ../Cars/CarColor.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: ../Cars/CarType.h
-CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: ../Gateways/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: ../Gateways/PassengerGateway.cpp
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: ../Gateways/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway.cpp.o: ../Orders/Order.h
@@ -71,7 +73,6 @@ CMakeFiles/WendexTaxi.dir/Orders/Order.cpp.o: ../WendexMaps/Coordinates.h
 CMakeFiles/WendexTaxi.dir/Service/System.cpp.o: ../Cars/Car.h
 CMakeFiles/WendexTaxi.dir/Service/System.cpp.o: ../Cars/CarColor.h
 CMakeFiles/WendexTaxi.dir/Service/System.cpp.o: ../Cars/CarType.h
-CMakeFiles/WendexTaxi.dir/Service/System.cpp.o: ../Gateways/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/Service/System.cpp.o: ../Gateways/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/Service/System.cpp.o: ../Orders/Order.h
 CMakeFiles/WendexTaxi.dir/Service/System.cpp.o: ../Service/System.cpp
@@ -86,7 +87,6 @@ CMakeFiles/WendexTaxi.dir/Service/System.cpp.o: ../WendexMoney/PaymentMethods.h
 CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../Cars/Car.h
 CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../Cars/CarColor.h
 CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../Cars/CarType.h
-CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../Gateways/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../Orders/Order.h
 CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../Users/Driver.cpp
 CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../Users/Driver.h
@@ -98,7 +98,6 @@ CMakeFiles/WendexTaxi.dir/Users/Driver.cpp.o: ../WendexMoney/PaymentMethods.h
 CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o: ../Cars/Car.h
 CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o: ../Cars/CarColor.h
 CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o: ../Cars/CarType.h
-CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o: ../Gateways/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o: ../Gateways/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o: ../Orders/Order.h
 CMakeFiles/WendexTaxi.dir/Users/Passenger.cpp.o: ../Service/System.h
