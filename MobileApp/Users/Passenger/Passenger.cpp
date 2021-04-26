@@ -22,3 +22,28 @@ void Passenger::registerAccount() {
 void Passenger::makeOrder(Address from, Address to, CarType carType) {
     gateway -> makeOrder(getPhoneNumber(), from, to, carType);
 }
+
+void Passenger::switchPaymentMethod() {
+    if (paymentMethod == PaymentMethods::card)
+        paymentMethod = PaymentMethods::cash;
+    else
+        paymentMethod = PaymentMethods::card;
+    cout << "Payment method successfully changed." << endl;
+}
+
+string Passenger::getPaymentMethodName() {
+    if (paymentMethod == PaymentMethods::card)
+        return "card";
+    else
+        return "cash";
+}
+
+void Passenger::printPaymentMethod() {
+    cout << "Payment method: ";
+    if (paymentMethod == PaymentMethods::card)
+        cout << "card" << endl;
+    else
+        cout << "cash" << endl;
+}
+
+

@@ -113,6 +113,9 @@
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>

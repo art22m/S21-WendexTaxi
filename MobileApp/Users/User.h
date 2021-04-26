@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include "../Orders/Order.h"
+#include "../Orders/PaymentMethods.h"
 #include "../Cars/Car.h"
 
 using namespace std;

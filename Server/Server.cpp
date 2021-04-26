@@ -188,6 +188,17 @@ void Server::getOrderInfo(string phoneNumber, Address from, Address to, CarType 
         i = tolower(i);
 
     if (response == "yes") {
+        cout << "Your payment method is: " << DataBase::request() -> getPassengers()[phoneNumber] -> getPaymentMethodName() << endl;
+        cout << "Do you wand to change it to " << (DataBase::request() -> getPassengers()[phoneNumber] -> getPaymentMethodName() == "cash?" ? "card" : "cash?") << endl;
+        string responsePayment;
+        cout << "Enter Yes/No: "; cin >> responsePayment;
+
+        for (auto &i: responsePayment)
+            i = tolower(i);
+
+        if (responsePayment == "yes")
+            DataBase::request() -> getPassengers()[phoneNumber] -> switchPaymentMethod();
+
         Order order(cost, timeOfRide, carType, from, to);
         addOrder(phoneNumber, order);
     } else {

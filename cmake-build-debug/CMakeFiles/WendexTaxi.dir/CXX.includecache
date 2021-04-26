@@ -64,6 +64,8 @@ string
 ../../WendexMaps.h
 /Users/artmurashko/Desktop/WendexTaxi/WendexMaps.h
 
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.cpp
 Driver.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
@@ -84,15 +86,13 @@ Passenger.h
 ../../../Gateways/PassengerGateway/PassengerGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
 
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.cpp
-User.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
-
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 iostream
 -
 ../Orders/Order.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
+../Orders/PaymentMethods.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
 ../Cars/Car.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
 
