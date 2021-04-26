@@ -48,3 +48,10 @@ void User::seeOrderHistory() {
         cout << "[" << id + 1 << "] From: " << orders[id].getAddressFrom().getAddress() << " To: "
              << orders[id].getAddressTo().getAddress() << " Cost: " << orders[id].getPrice() << " rubles" << endl;
 }
+
+Order User::getLastOrder() {
+    if (orders.empty())
+        return Order(-1, -1, CarType::economy,Address(), Address());
+
+    return orders[orders.size() - 1];
+}

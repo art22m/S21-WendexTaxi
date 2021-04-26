@@ -24,6 +24,7 @@ public:
     double getRating();
     void saveOrder(Order order);
     void seeOrderHistory();
+    Order getLastOrder();
 
 private:
     string name;

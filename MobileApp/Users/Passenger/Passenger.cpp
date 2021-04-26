@@ -64,3 +64,30 @@ void Passenger::printPinnedAddresses() {
     for (int id = 0; id < pinnedAddresses.size(); ++id)
         cout << "[" << id + 1 << "] " << pinnedAddresses[id].getAddress() << endl;
 }
+
+void Passenger::askBillForLastRide() {
+    Order lastOrder = getLastOrder();
+
+    if (lastOrder.getPrice() == -1) {
+        cout << "You don't have any orders :(" << endl;
+        return;
+    }
+
+    cout << endl << "Bill for the last ride: " << endl;
+    cout << "Price: " << lastOrder.getPrice() << " rubles, Taxi type: ";
+    switch (lastOrder.getCarType()) {
+        case CarType::economy:
+            cout << "economy";
+            break;
+        case CarType::comfort:
+            cout << "comfort";
+            break;
+        case CarType::comfortPlus:
+            cout << "comfort plus";
+            break;
+        case CarType::business:
+            cout << "business";
+            break;
+    }
+    cout << endl << endl;
+}

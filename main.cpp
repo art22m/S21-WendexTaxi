@@ -11,6 +11,7 @@ int main() {
     p1.registerAccount();
     p1.pinAddress(Address("Egoriev Proezd", Coordinates()));
     p1.makeOrder(Address("Ulitsa Lenina", Coordinates()), Address("Prospect Izmailovo", Coordinates()), CarType::economy);
+    p1.askBillForLastRide();
 
     // ---> Register first driver account <--- //
     Driver d1("Seva Mikulik", "+7927", "Krendel333");
@@ -30,5 +31,6 @@ int main() {
     d1.changeCurrentCar();
     d1.findOrder();
 
+    p1.askBillForLastRide();
     return 0;
 }

@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.cpp
-DataBase.h
-/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
-
 /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
 ../MobileApp/Users/Driver/Driver.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
@@ -20,10 +16,6 @@ DataBase.h
 map
 -
 
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.cpp
-DriverGateway.h
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
-
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
 string
 -
@@ -33,10 +25,6 @@ string
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
 ../../MobileApp/Users/Driver/Driver.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
-
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.cpp
-PassengerGateway.h
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
 string
@@ -66,10 +54,6 @@ string
 
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
 
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.cpp
-Driver.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
-
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
 ../User.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
@@ -85,10 +69,6 @@ Passenger.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 ../../../Gateways/PassengerGateway/PassengerGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
-
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.cpp
-User.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 iostream
@@ -137,28 +117,4 @@ random
 -
 time.h
 -
-
-/Users/artmurashko/Desktop/WendexTaxi/WendexTaxi.h
-MobileApp/Users/User.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
-MobileApp/Users/Driver/Driver.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
-MobileApp/Users/Passenger/Passenger.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
-MobileApp/Cars/Car.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
-MobileApp/Cars/CarType.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
-MobileApp/Orders/Order.h
-/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
-Gateways/PassengerGateway/PassengerGateway.h
-/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
-Server/Server.h
-/Users/artmurashko/Desktop/WendexTaxi/Server/Server.h
-DataBase/DataBase.h
-/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
-
-/Users/artmurashko/Desktop/WendexTaxi/main.cpp
-WendexTaxi.h
-/Users/artmurashko/Desktop/WendexTaxi/WendexTaxi.h
 

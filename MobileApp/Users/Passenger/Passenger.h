@@ -27,6 +27,8 @@ public:
     vector <Address> getPinnedAddresses();
     void printPinnedAddresses();
 
+    void askBillForLastRide();
+
 private:
     PassengerGateway *gateway;
     PaymentMethods paymentMethod = PaymentMethods::card;
