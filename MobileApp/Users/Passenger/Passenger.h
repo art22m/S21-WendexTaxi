@@ -18,12 +18,19 @@ public:
     void exit();
     void registerAccount();
     void makeOrder(Address from, Address to, CarType carType);
+
     void switchPaymentMethod(); // change payment method from 'cash' to 'card' and vise versa
     string getPaymentMethodName(); // return a string name of payment method
     void printPaymentMethod(); // just print into console the payment method
+
+    void pinAddress(Address address);
+    vector <Address> getPinnedAddresses();
+    void printPinnedAddresses();
+
 private:
     PassengerGateway *gateway;
     PaymentMethods paymentMethod = PaymentMethods::card;
+    vector <Address> pinnedAddresses;
 };
 
 

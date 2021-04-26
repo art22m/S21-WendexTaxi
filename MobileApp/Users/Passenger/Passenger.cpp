@@ -46,4 +46,21 @@ void Passenger::printPaymentMethod() {
         cout << "cash" << endl;
 }
 
+void Passenger::pinAddress(Address address) {
+    pinnedAddresses.push_back(address);
+}
 
+vector<Address> Passenger::getPinnedAddresses() {
+    return pinnedAddresses;
+}
+
+void Passenger::printPinnedAddresses() {
+    if (pinnedAddresses.empty()) {
+        cout << "You don't have any pinned addresses :(" << endl;
+        return;
+    }
+
+    cout << "You have " << pinnedAddresses.size() << " pinned addresses: " << endl;
+    for (int id = 0; id < pinnedAddresses.size(); ++id)
+        cout << "[" << id + 1 << "] " << pinnedAddresses[id].getAddress() << endl;
+}

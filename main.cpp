@@ -9,6 +9,7 @@ int main() {
     p1.enter("SOs");
     p1.enter("Sosiska123");
     p1.registerAccount();
+    p1.pinAddress(Address("Egoriev Proezd", Coordinates()));
     p1.makeOrder(Address("Ulitsa Lenina", Coordinates()), Address("Prospect Izmailovo", Coordinates()), CarType::economy);
 
     // ---> Register first driver account <--- //

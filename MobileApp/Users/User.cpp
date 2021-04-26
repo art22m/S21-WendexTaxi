@@ -39,13 +39,12 @@ void User::saveOrder(Order order) {
 }
 
 void User::seeOrderHistory() {
-    if (orders.size() == 0) {
+    if (orders.empty()) {
         cout << "You don't have any orders :)" << endl;
         return;
     }
     cout << "Order history: " << endl;
     for (int id = 0; id < orders.size(); ++id)
-        cout << "(" << id << ") From: " << orders[id].getAddressFrom().getAddress() << " To: "
+        cout << "[" << id + 1 << "] From: " << orders[id].getAddressFrom().getAddress() << " To: "
              << orders[id].getAddressTo().getAddress() << " Cost: " << orders[id].getPrice() << " rubles" << endl;
-
 }

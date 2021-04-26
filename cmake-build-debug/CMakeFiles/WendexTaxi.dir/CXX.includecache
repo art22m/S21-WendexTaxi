@@ -86,6 +86,10 @@ Passenger.h
 ../../../Gateways/PassengerGateway/PassengerGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
 
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.cpp
+User.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
+
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 iostream
 -

@@ -156,6 +156,33 @@ void Server::passengerEnter(string phoneNumber) {
 }
 
 void Server::getOrderInfo(string phoneNumber, Address from, Address to, CarType carType) {
+    string responseAddress;
+    cout << "You can change address_to to your pinned address. Do you want it?" << endl;
+    cout << "Enter yes/no "; cin >> responseAddress;
+    // Make all letter in lower case
+    for (auto &i: responseAddress)
+        i = tolower(i);
+
+    if (responseAddress == "yes") {
+        vector <Address> pinnedAddresses = DataBase::request() -> getPassengers()[phoneNumber] -> getPinnedAddresses();
+        if (pinnedAddresses.empty()) {
+            cout << "You don't have any pinned addresses :(" << endl;
+        } else {
+            cout << "You have " << pinnedAddresses.size() << " pinned addresses: " << endl;
+            for (int id = 0; id < pinnedAddresses.size(); ++id)
+                cout << "(" << id + 1 << ") " << pinnedAddresses[id].getAddress() << endl;
+            int responsePinned;
+            cout << "Enter number from 1 to " << pinnedAddresses.size() << ": "; cin >> responsePinned;
+            if (responsePinned <= 0 || responsePinned > pinnedAddresses.size()) {
+                cout << "Incorrect number." << endl;
+            } else {
+                Address chosenAddress = pinnedAddresses[responsePinned - 1];
+                to = chosenAddress;
+            }
+        }
+    }
+
+
     // Here we can call function for calculating the cost
     /* ---> Calculating cost and time<--- */
     double distance = (from.getCoordinates().x - to.getCoordinates().x) * (from.getCoordinates().x - to.getCoordinates().x)
