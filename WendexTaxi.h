@@ -8,6 +8,7 @@
 
 // Include all files from the MobileApp folder
 #include "MobileApp/Users/User.h"
+#include "MobileApp/Users/Admin/Admin.h"
 #include "MobileApp/Users/Driver/Driver.h"
 #include "MobileApp/Users/Passenger/Passenger.h"
 #include "MobileApp/Cars/Car.h"
@@ -16,6 +17,8 @@
 
 // Include all files from the Gateways folder
 #include "Gateways/PassengerGateway/PassengerGateway.h"
+#include "Gateways/DriverGateway/DriverGateway.h"
+#include "Gateways/AdminGateway/AdminGateway.h"
 
 // Include all files from the Server folder
 #include "Server/Server.h"

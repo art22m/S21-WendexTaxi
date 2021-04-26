@@ -86,6 +86,12 @@
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
@@ -114,6 +120,12 @@
 			<Option target="WendexTaxi"/>
 		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.cpp">

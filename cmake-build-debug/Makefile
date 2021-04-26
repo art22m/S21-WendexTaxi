@@ -169,6 +169,33 @@ DataBase/DataBase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.s
 .PHONY : DataBase/DataBase.cpp.s
 
+Gateways/AdminGateway/AdminGateway.o: Gateways/AdminGateway/AdminGateway.cpp.o
+
+.PHONY : Gateways/AdminGateway/AdminGateway.o
+
+# target to build an object file
+Gateways/AdminGateway/AdminGateway.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o
+.PHONY : Gateways/AdminGateway/AdminGateway.cpp.o
+
+Gateways/AdminGateway/AdminGateway.i: Gateways/AdminGateway/AdminGateway.cpp.i
+
+.PHONY : Gateways/AdminGateway/AdminGateway.i
+
+# target to preprocess a source file
+Gateways/AdminGateway/AdminGateway.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.i
+.PHONY : Gateways/AdminGateway/AdminGateway.cpp.i
+
+Gateways/AdminGateway/AdminGateway.s: Gateways/AdminGateway/AdminGateway.cpp.s
+
+.PHONY : Gateways/AdminGateway/AdminGateway.s
+
+# target to generate assembly for a file
+Gateways/AdminGateway/AdminGateway.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.s
+.PHONY : Gateways/AdminGateway/AdminGateway.cpp.s
+
 Gateways/DriverGateway/DriverGateway.o: Gateways/DriverGateway/DriverGateway.cpp.o
 
 .PHONY : Gateways/DriverGateway/DriverGateway.o
@@ -276,6 +303,33 @@ MobileApp/Orders/Order.s: MobileApp/Orders/Order.cpp.s
 MobileApp/Orders/Order.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.s
 .PHONY : MobileApp/Orders/Order.cpp.s
+
+MobileApp/Users/Admin/Admin.o: MobileApp/Users/Admin/Admin.cpp.o
+
+.PHONY : MobileApp/Users/Admin/Admin.o
+
+# target to build an object file
+MobileApp/Users/Admin/Admin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o
+.PHONY : MobileApp/Users/Admin/Admin.cpp.o
+
+MobileApp/Users/Admin/Admin.i: MobileApp/Users/Admin/Admin.cpp.i
+
+.PHONY : MobileApp/Users/Admin/Admin.i
+
+# target to preprocess a source file
+MobileApp/Users/Admin/Admin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.i
+.PHONY : MobileApp/Users/Admin/Admin.cpp.i
+
+MobileApp/Users/Admin/Admin.s: MobileApp/Users/Admin/Admin.cpp.s
+
+.PHONY : MobileApp/Users/Admin/Admin.s
+
+# target to generate assembly for a file
+MobileApp/Users/Admin/Admin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.s
+.PHONY : MobileApp/Users/Admin/Admin.cpp.s
 
 MobileApp/Users/Driver/Driver.o: MobileApp/Users/Driver/Driver.cpp.o
 
@@ -451,6 +505,9 @@ help:
 	@echo "... DataBase/DataBase.o"
 	@echo "... DataBase/DataBase.i"
 	@echo "... DataBase/DataBase.s"
+	@echo "... Gateways/AdminGateway/AdminGateway.o"
+	@echo "... Gateways/AdminGateway/AdminGateway.i"
+	@echo "... Gateways/AdminGateway/AdminGateway.s"
 	@echo "... Gateways/DriverGateway/DriverGateway.o"
 	@echo "... Gateways/DriverGateway/DriverGateway.i"
 	@echo "... Gateways/DriverGateway/DriverGateway.s"
@@ -463,6 +520,9 @@ help:
 	@echo "... MobileApp/Orders/Order.o"
 	@echo "... MobileApp/Orders/Order.i"
 	@echo "... MobileApp/Orders/Order.s"
+	@echo "... MobileApp/Users/Admin/Admin.o"
+	@echo "... MobileApp/Users/Admin/Admin.i"
+	@echo "... MobileApp/Users/Admin/Admin.s"
 	@echo "... MobileApp/Users/Driver/Driver.o"
 	@echo "... MobileApp/Users/Driver/Driver.i"
 	@echo "... MobileApp/Users/Driver/Driver.s"

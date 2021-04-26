@@ -23,8 +23,8 @@ bool Server::isDriverOnline(string phoneNumber) {
     return onlineDrivers[phoneNumber];
 }
 
-bool Server::isDriverPasswordCorrect(string number, string password) {
-    const string correctPassword = DataBase::request() -> getDrivers()[number] -> getPassword();
+bool Server::isDriverPasswordCorrect(string phoneNumber, string password) {
+    const string correctPassword = DataBase::request() -> getDrivers()[phoneNumber] -> getPassword();
 
     if (correctPassword == password)
         return true;
@@ -238,3 +238,45 @@ void Server::addOrder(string phoneNumber, Order order) {
     activeOrders.push_back(order);
     DataBase::request() -> getPassengers()[phoneNumber] -> saveOrder(order);
 }
+
+/* ---> Admins Methods <--- */
+
+void Server::adminEnter(string phoneNumber) {
+    onlineAdmins[phoneNumber] = true;
+    cout << "Admin successfully entered." << endl;
+}
+
+void Server::adminExit(string phoneNumber) {
+    onlineAdmins[phoneNumber] = false;
+    cout << "Admin successfully exited." << endl;
+}
+
+void Server::printDataBaseStatistics() {
+    DataBase::request() -> printDataBaseStatistics();
+}
+
+void Server::registerAdmin(Admin *admin) {
+    DataBase::request() -> addAdminEntity(admin);
+}
+
+bool Server::isAdminOnline(string phoneNumber) {
+    return onlineAdmins[phoneNumber];
+}
+
+bool Server::isAdminPasswordCorrect(string phoneNumber, string password) {
+    const string correctPassword = DataBase::request() -> getAdmins()[phoneNumber] -> getPassword();
+
+    if (correctPassword == password)
+        return true;
+    else
+        return false;
+}
+
+bool Server::isAdminRegistered(string phoneNumber) {
+    map <string, Admin*> fetchedAdmins = DataBase::request() -> getAdmins();
+    if (fetchedAdmins.find(phoneNumber) != fetchedAdmins.end())
+        return true;
+    else
+        return false;
+}
+

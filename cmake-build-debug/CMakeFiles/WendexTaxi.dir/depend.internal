@@ -4,12 +4,32 @@
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.cpp
  /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
+ /Users/artmurashko/Desktop/WendexTaxi/Server/Server.h
+ /Users/artmurashko/Desktop/WendexTaxi/WendexMaps.h
+ /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
+ /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o
+ /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.cpp
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
@@ -19,6 +39,7 @@ CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.cpp
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
@@ -26,6 +47,7 @@ CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
@@ -35,6 +57,7 @@ CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.cpp
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
@@ -42,6 +65,7 @@ CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
@@ -63,14 +87,34 @@ CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps.h
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
-CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.cpp
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
+ /Users/artmurashko/Desktop/WendexTaxi/Server/Server.h
+ /Users/artmurashko/Desktop/WendexTaxi/WendexMaps.h
+ /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.h
+ /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o
+ /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.cpp
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
@@ -81,12 +125,14 @@ CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.cpp
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
@@ -107,12 +153,14 @@ CMakeFiles/WendexTaxi.dir/MobileApp/Users/User.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
@@ -127,12 +175,14 @@ CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o
  /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+ /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+ /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
  /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h

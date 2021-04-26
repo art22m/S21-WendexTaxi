@@ -14,6 +14,9 @@ class Driver;
 class Passenger;
 #include "../MobileApp/Users/Passenger/Passenger.h"
 
+class Admin;
+#include "../MobileApp/Users/Admin/Admin.h"
+
 #include <vector>
 #include <map>
 
@@ -47,9 +50,20 @@ public:
     bool isPassengerOnline(string phoneNumber);
     bool isPassengerPasswordCorrect(string phoneNumber, string password);
 
+    /* ---> Admins Methods <--- */
+    void adminEnter(string phoneNumber);
+    void adminExit(string phoneNumber);
+    void printDataBaseStatistics();
+    void registerAdmin(Admin *admin);
+    bool isAdminPasswordCorrect(string phoneNumber, string password);
+    bool isAdminRegistered(string phoneNumber);
+    bool isAdminOnline(string phoneNumber);
+
 private:
     map <string, bool> onlinePassengers; // Map where key -> phone number and value -> bool value (false - not online and vise versa)
-    map <string, bool> onlineDrivers; // Map where key -> phone number and value -> pointer to the driver
+    map <string, bool> onlineDrivers; // Map where key -> phone number and value -> bool value
+    map <string, bool> onlineAdmins; // Map where key -> phone number and value -> bool value
+
     vector <Order> activeOrders;
 
     Server();

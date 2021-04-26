@@ -5,10 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o"
+  "/Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/MobileApp/Cars/Car.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.o"
+  "/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/MobileApp/Users/User.cpp.o"

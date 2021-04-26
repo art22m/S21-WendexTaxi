@@ -8,6 +8,8 @@ class Driver;
 #include "../MobileApp/Users/Driver/Driver.h"
 class Passenger;
 #include "../MobileApp/Users/Passenger/Passenger.h"
+class Admin;
+#include "../MobileApp/Users/Admin/Admin.h"
 
 #include "../MobileApp/Orders/Order.h"
 
@@ -15,6 +17,7 @@ class Passenger;
 
 using namespace std;
 
+/*-- Singleton class Data Base --*/
 
 class DataBase {
 public:
@@ -26,14 +29,20 @@ public:
 public:
     map <string, Driver*> getDrivers();
     map <string, Passenger*> getPassengers();
+    map <string, Admin*> getAdmins();
 
 public:
     void addDriverEntity(Driver *driver);
     void addPassengerEntity(Passenger *passenger);
+    void addAdminEntity(Admin *admin);
+
+public:
+    void printDataBaseStatistics(); // Print the number of users in the DataBase
 
 private:
     map <string, Driver*> drivers;
     map <string, Passenger*> passengers;
+    map <string, Admin*> admins;
 
     DataBase();
 };

@@ -3,12 +3,14 @@
 
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../DataBase/DataBase.cpp
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../MobileApp/Cars/Car.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../MobileApp/Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../MobileApp/Orders/Order.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../MobileApp/Users/Admin/Admin.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../MobileApp/Users/Driver/Driver.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../MobileApp/Users/User.h
@@ -17,7 +19,26 @@ CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../WendexMaps.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../WendexMaps/Address.h
 CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o: ../WendexMaps/Coordinates.h
 
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../Gateways/AdminGateway/AdminGateway.cpp
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../MobileApp/Cars/Car.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../MobileApp/Cars/CarType.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../MobileApp/Orders/Order.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../MobileApp/Users/Admin/Admin.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../MobileApp/Users/Driver/Driver.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../MobileApp/Users/User.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../Server/Server.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../WendexMaps.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../WendexMaps/Address.h
+CMakeFiles/WendexTaxi.dir/Gateways/AdminGateway/AdminGateway.cpp.o: ../WendexMaps/Coordinates.h
+
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../Gateways/DriverGateway/DriverGateway.cpp
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
@@ -25,6 +46,7 @@ CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../MobileA
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../MobileApp/Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../MobileApp/Orders/Order.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../MobileApp/Users/Admin/Admin.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../MobileApp/Users/Driver/Driver.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../MobileApp/Users/User.h
@@ -34,6 +56,7 @@ CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../WendexM
 CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o: ../WendexMaps/Coordinates.h
 
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.cpp
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
@@ -41,6 +64,7 @@ CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../M
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../MobileApp/Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../MobileApp/Orders/Order.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../MobileApp/Users/Admin/Admin.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../MobileApp/Users/Driver/Driver.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
 CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o: ../MobileApp/Users/User.h
@@ -63,13 +87,33 @@ CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.o: ../WendexMaps.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.o: ../WendexMaps/Address.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.o: ../WendexMaps/Coordinates.h
 
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Cars/Car.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Cars/CarType.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Orders/Order.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Users/Admin/Admin.cpp
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Users/Admin/Admin.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Users/Driver/Driver.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../MobileApp/Users/User.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../Server/Server.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../WendexMaps.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../WendexMaps/Address.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Admin/Admin.cpp.o: ../WendexMaps/Coordinates.h
+
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../MobileApp/Cars/Car.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../MobileApp/Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../MobileApp/Orders/Order.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../MobileApp/Users/Admin/Admin.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../MobileApp/Users/Driver/Driver.cpp
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../MobileApp/Users/Driver/Driver.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
@@ -80,12 +124,14 @@ CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../WendexMaps/Add
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o: ../WendexMaps/Coordinates.h
 
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../MobileApp/Cars/Car.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../MobileApp/Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../MobileApp/Orders/Order.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../MobileApp/Users/Admin/Admin.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../MobileApp/Users/Driver/Driver.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../MobileApp/Users/Passenger/Passenger.cpp
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
@@ -106,12 +152,14 @@ CMakeFiles/WendexTaxi.dir/MobileApp/Users/User.cpp.o: ../WendexMaps/Address.h
 CMakeFiles/WendexTaxi.dir/MobileApp/Users/User.cpp.o: ../WendexMaps/Coordinates.h
 
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../MobileApp/Cars/Car.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../MobileApp/Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../MobileApp/Orders/Order.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../MobileApp/Users/Admin/Admin.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../MobileApp/Users/Driver/Driver.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
 CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o: ../MobileApp/Users/User.h
@@ -126,12 +174,14 @@ CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o: ../WendexMaps/Address.h
 CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o: ../WendexMaps/Coordinates.h
 
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../DataBase/DataBase.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Gateways/AdminGateway/AdminGateway.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Gateways/DriverGateway/DriverGateway.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../Gateways/PassengerGateway/PassengerGateway.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../MobileApp/Cars/Car.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../MobileApp/Cars/CarType.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../MobileApp/Orders/Order.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../MobileApp/Orders/PaymentMethods.h
+CMakeFiles/WendexTaxi.dir/main.cpp.o: ../MobileApp/Users/Admin/Admin.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../MobileApp/Users/Driver/Driver.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../MobileApp/Users/Passenger/Passenger.h
 CMakeFiles/WendexTaxi.dir/main.cpp.o: ../MobileApp/Users/User.h

@@ -26,4 +26,4 @@ add_executable( WendexTaxi main.cpp
                 Gateways/PassengerGateway/PassengerGateway.cpp
                 Gateways/PassengerGateway/PassengerGateway.h
                 Gateways/DriverGateway/DriverGateway.cpp
-                Gateways/DriverGateway/DriverGateway.h MobileApp/Orders/PaymentMethods.h)
+                Gateways/DriverGateway/DriverGateway.h MobileApp/Orders/PaymentMethods.h Gateways/AdminGateway/AdminGateway.cpp Gateways/AdminGateway/AdminGateway.h MobileApp/Users/Admin/Admin.cpp MobileApp/Users/Admin/Admin.h)
