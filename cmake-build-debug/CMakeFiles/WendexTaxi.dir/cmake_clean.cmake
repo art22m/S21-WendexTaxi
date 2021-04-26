@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o"
+  "CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o"
   "CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o"
   "CMakeFiles/WendexTaxi.dir/MobileApp/Cars/Car.cpp.o"
   "CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.o"

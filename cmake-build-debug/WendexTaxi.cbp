@@ -86,6 +86,12 @@
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.cpp">
+			<Option target="WendexTaxi"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>

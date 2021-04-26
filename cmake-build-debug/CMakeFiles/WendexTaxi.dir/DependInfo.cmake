@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o"
+  "/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/MobileApp/Cars/Car.cpp.o"
   "/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.cpp" "/Users/artmurashko/Desktop/WendexTaxi/cmake-build-debug/CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.o"

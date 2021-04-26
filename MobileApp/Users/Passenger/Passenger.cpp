@@ -4,6 +4,7 @@
 #include "Passenger.h"
 
 Passenger::Passenger(string name, string phoneNumber, string password, double rating) : User(name, phoneNumber, password, rating) { }
+Passenger::Passenger(string name, string phoneNumber, string password) : User(name, phoneNumber, password) { }
 Passenger::Passenger() { }
 
 void Passenger::enter(string password) {

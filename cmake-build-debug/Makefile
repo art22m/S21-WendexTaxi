@@ -169,6 +169,33 @@ DataBase/DataBase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.s
 .PHONY : DataBase/DataBase.cpp.s
 
+Gateways/DriverGateway/DriverGateway.o: Gateways/DriverGateway/DriverGateway.cpp.o
+
+.PHONY : Gateways/DriverGateway/DriverGateway.o
+
+# target to build an object file
+Gateways/DriverGateway/DriverGateway.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.o
+.PHONY : Gateways/DriverGateway/DriverGateway.cpp.o
+
+Gateways/DriverGateway/DriverGateway.i: Gateways/DriverGateway/DriverGateway.cpp.i
+
+.PHONY : Gateways/DriverGateway/DriverGateway.i
+
+# target to preprocess a source file
+Gateways/DriverGateway/DriverGateway.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.i
+.PHONY : Gateways/DriverGateway/DriverGateway.cpp.i
+
+Gateways/DriverGateway/DriverGateway.s: Gateways/DriverGateway/DriverGateway.cpp.s
+
+.PHONY : Gateways/DriverGateway/DriverGateway.s
+
+# target to generate assembly for a file
+Gateways/DriverGateway/DriverGateway.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/DriverGateway/DriverGateway.cpp.s
+.PHONY : Gateways/DriverGateway/DriverGateway.cpp.s
+
 Gateways/PassengerGateway/PassengerGateway.o: Gateways/PassengerGateway/PassengerGateway.cpp.o
 
 .PHONY : Gateways/PassengerGateway/PassengerGateway.o
@@ -424,6 +451,9 @@ help:
 	@echo "... DataBase/DataBase.o"
 	@echo "... DataBase/DataBase.i"
 	@echo "... DataBase/DataBase.s"
+	@echo "... Gateways/DriverGateway/DriverGateway.o"
+	@echo "... Gateways/DriverGateway/DriverGateway.i"
+	@echo "... Gateways/DriverGateway/DriverGateway.s"
 	@echo "... Gateways/PassengerGateway/PassengerGateway.o"
 	@echo "... Gateways/PassengerGateway/PassengerGateway.i"
 	@echo "... Gateways/PassengerGateway/PassengerGateway.s"

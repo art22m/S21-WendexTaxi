@@ -10,3 +10,23 @@ Order::Order(double price, int time, CarType carType, Address from, Address to) 
     this -> from = from;
     this -> to = to;
 }
+
+double Order::getPrice() {
+    return price;
+}
+
+int Order::getTime() {
+    return time;
+}
+
+CarType Order::getCarType() {
+    return carType;
+}
+
+Address Order::getAddressFrom() {
+    return from;
+}
+
+Address Order::getAddressTo() {
+    return to;
+}

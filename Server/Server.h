@@ -6,9 +6,10 @@
 #define WENDEXTAXI_SERVER_H
 
 #include "../DataBase/DataBase.h"
-
-#include "../MobileApp/Users/Driver/Driver.h"
 #include "../MobileApp/Orders/Order.h"
+
+class Driver;
+#include "../MobileApp/Users/Driver/Driver.h"
 
 class Passenger;
 #include "../MobileApp/Users/Passenger/Passenger.h"
@@ -27,11 +28,14 @@ public:
     /*-----> Driver Methods <-----*/
     void driverEnter(string phoneNumber);
     void driverExit(string phoneNumber);
+    void registerDriver(Driver *driver);
     void findOrder(string phoneNumber);
-    void registerDriver(Driver driver);
+    void addCar(string phoneNumber, Car *car);
+    Car* getCurrentCar(string phoneNumber);
     bool isDriverRegistered(string phoneNumber);
     bool isDriverOnline(string phoneNumber);
     bool isDriverPasswordCorrect(string number, string password);
+    bool isDriverHasCars(string phoneNumber);
 
     /*-----> Passenger Methods <-----*/
     void passengerEnter(string phoneNumber);
@@ -41,7 +45,7 @@ public:
     void getOrderInfo(string phoneNumber, Address from, Address to, CarType carType);
     bool isPassengerRegistered(string phoneNumber);
     bool isPassengerOnline(string phoneNumber);
-    bool isPassengerPasswordCorrect(string number, string password);
+    bool isPassengerPasswordCorrect(string phoneNumber, string password);
 
 private:
     map <string, bool> onlinePassengers; // Map where key -> phone number and value -> bool value (false - not online and vise versa)

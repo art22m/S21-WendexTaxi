@@ -11,6 +11,7 @@ class PassengerGateway;
 class Passenger : public User {
 public:
     Passenger(string name, string phoneNumber, string password, double rating);
+    Passenger(string name, string phoneNumber, string password);
     Passenger();
 public:
     void enter(string password);

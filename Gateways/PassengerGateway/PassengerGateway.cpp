@@ -7,7 +7,7 @@ PassengerGateway::PassengerGateway() { }
 
 void PassengerGateway::passengerEnter(string phoneNumber, string password) {
     if (!Server::request()->isPassengerRegistered(phoneNumber)) {
-        cout << "User with such number does not exist!" << endl;
+        cout << "Passenger with such number does not exist!" << endl;
         return;
     }
     if (!Server::request() -> isPassengerPasswordCorrect(phoneNumber, password)) {

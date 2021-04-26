@@ -4,9 +4,11 @@
 #ifndef WENDEXTAXI_DATABASE_H
 #define WENDEXTAXI_DATABASE_H
 
+class Driver;
 #include "../MobileApp/Users/Driver/Driver.h"
 class Passenger;
 #include "../MobileApp/Users/Passenger/Passenger.h"
+
 #include "../MobileApp/Orders/Order.h"
 
 #include <map>

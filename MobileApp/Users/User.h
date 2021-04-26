@@ -13,6 +13,7 @@ using namespace std;
 class User {
 public:
     User(string name, string phoneNumber, string password, double rating);
+    User(string name, string phoneNumber, string password);
     User();
 
 public:
@@ -21,6 +22,7 @@ public:
     string getPhoneNumber();
     double getRating();
     void saveOrder(Order order);
+    void seeOrderHistory();
 
 private:
     string name;

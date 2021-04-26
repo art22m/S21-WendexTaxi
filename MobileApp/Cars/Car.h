@@ -15,7 +15,9 @@ using namespace std;
 class Car {
 public:
     Car(string model, string color, string licencePlate, CarType carType, Coordinates coordinates);
+    Car(string model, string color, string licencePlate, CarType carType);
 
+public:
     string getModel();
     string getColor();
     string getLicencePLate();
@@ -28,7 +30,6 @@ private:
     string licencePlate;
     CarType carType;
     Coordinates coordinates = Coordinates();
-
 };
 
 

@@ -6,12 +6,13 @@
 #ifndef WENDEXTAXI_WENDEXTAXI_H
 #define WENDEXTAXI_WENDEXTAXI_H
 
-// Include all files from the Cars folder
-
-// Include all files from the Users folder
+// Include all files from the MobileApp folder
 #include "MobileApp/Users/User.h"
 #include "MobileApp/Users/Driver/Driver.h"
 #include "MobileApp/Users/Passenger/Passenger.h"
+#include "MobileApp/Cars/Car.h"
+#include "MobileApp/Cars/CarType.h"
+#include "MobileApp/Orders/Order.h"
 
 // Include all files from the Gateways folder
 #include "Gateways/PassengerGateway/PassengerGateway.h"
