@@ -142,6 +142,249 @@ WendexTaxi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/build
 .PHONY : WendexTaxi/fast
 
+DataBase/DataBase.o: DataBase/DataBase.cpp.o
+
+.PHONY : DataBase/DataBase.o
+
+# target to build an object file
+DataBase/DataBase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.o
+.PHONY : DataBase/DataBase.cpp.o
+
+DataBase/DataBase.i: DataBase/DataBase.cpp.i
+
+.PHONY : DataBase/DataBase.i
+
+# target to preprocess a source file
+DataBase/DataBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.i
+.PHONY : DataBase/DataBase.cpp.i
+
+DataBase/DataBase.s: DataBase/DataBase.cpp.s
+
+.PHONY : DataBase/DataBase.s
+
+# target to generate assembly for a file
+DataBase/DataBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/DataBase/DataBase.cpp.s
+.PHONY : DataBase/DataBase.cpp.s
+
+Gateways/PassengerGateway/PassengerGateway.o: Gateways/PassengerGateway/PassengerGateway.cpp.o
+
+.PHONY : Gateways/PassengerGateway/PassengerGateway.o
+
+# target to build an object file
+Gateways/PassengerGateway/PassengerGateway.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.o
+.PHONY : Gateways/PassengerGateway/PassengerGateway.cpp.o
+
+Gateways/PassengerGateway/PassengerGateway.i: Gateways/PassengerGateway/PassengerGateway.cpp.i
+
+.PHONY : Gateways/PassengerGateway/PassengerGateway.i
+
+# target to preprocess a source file
+Gateways/PassengerGateway/PassengerGateway.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.i
+.PHONY : Gateways/PassengerGateway/PassengerGateway.cpp.i
+
+Gateways/PassengerGateway/PassengerGateway.s: Gateways/PassengerGateway/PassengerGateway.cpp.s
+
+.PHONY : Gateways/PassengerGateway/PassengerGateway.s
+
+# target to generate assembly for a file
+Gateways/PassengerGateway/PassengerGateway.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Gateways/PassengerGateway/PassengerGateway.cpp.s
+.PHONY : Gateways/PassengerGateway/PassengerGateway.cpp.s
+
+MobileApp/Cars/Car.o: MobileApp/Cars/Car.cpp.o
+
+.PHONY : MobileApp/Cars/Car.o
+
+# target to build an object file
+MobileApp/Cars/Car.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Cars/Car.cpp.o
+.PHONY : MobileApp/Cars/Car.cpp.o
+
+MobileApp/Cars/Car.i: MobileApp/Cars/Car.cpp.i
+
+.PHONY : MobileApp/Cars/Car.i
+
+# target to preprocess a source file
+MobileApp/Cars/Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Cars/Car.cpp.i
+.PHONY : MobileApp/Cars/Car.cpp.i
+
+MobileApp/Cars/Car.s: MobileApp/Cars/Car.cpp.s
+
+.PHONY : MobileApp/Cars/Car.s
+
+# target to generate assembly for a file
+MobileApp/Cars/Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Cars/Car.cpp.s
+.PHONY : MobileApp/Cars/Car.cpp.s
+
+MobileApp/Orders/Order.o: MobileApp/Orders/Order.cpp.o
+
+.PHONY : MobileApp/Orders/Order.o
+
+# target to build an object file
+MobileApp/Orders/Order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.o
+.PHONY : MobileApp/Orders/Order.cpp.o
+
+MobileApp/Orders/Order.i: MobileApp/Orders/Order.cpp.i
+
+.PHONY : MobileApp/Orders/Order.i
+
+# target to preprocess a source file
+MobileApp/Orders/Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.i
+.PHONY : MobileApp/Orders/Order.cpp.i
+
+MobileApp/Orders/Order.s: MobileApp/Orders/Order.cpp.s
+
+.PHONY : MobileApp/Orders/Order.s
+
+# target to generate assembly for a file
+MobileApp/Orders/Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Orders/Order.cpp.s
+.PHONY : MobileApp/Orders/Order.cpp.s
+
+MobileApp/Users/Driver/Driver.o: MobileApp/Users/Driver/Driver.cpp.o
+
+.PHONY : MobileApp/Users/Driver/Driver.o
+
+# target to build an object file
+MobileApp/Users/Driver/Driver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.o
+.PHONY : MobileApp/Users/Driver/Driver.cpp.o
+
+MobileApp/Users/Driver/Driver.i: MobileApp/Users/Driver/Driver.cpp.i
+
+.PHONY : MobileApp/Users/Driver/Driver.i
+
+# target to preprocess a source file
+MobileApp/Users/Driver/Driver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.i
+.PHONY : MobileApp/Users/Driver/Driver.cpp.i
+
+MobileApp/Users/Driver/Driver.s: MobileApp/Users/Driver/Driver.cpp.s
+
+.PHONY : MobileApp/Users/Driver/Driver.s
+
+# target to generate assembly for a file
+MobileApp/Users/Driver/Driver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Driver/Driver.cpp.s
+.PHONY : MobileApp/Users/Driver/Driver.cpp.s
+
+MobileApp/Users/Passenger/Passenger.o: MobileApp/Users/Passenger/Passenger.cpp.o
+
+.PHONY : MobileApp/Users/Passenger/Passenger.o
+
+# target to build an object file
+MobileApp/Users/Passenger/Passenger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.o
+.PHONY : MobileApp/Users/Passenger/Passenger.cpp.o
+
+MobileApp/Users/Passenger/Passenger.i: MobileApp/Users/Passenger/Passenger.cpp.i
+
+.PHONY : MobileApp/Users/Passenger/Passenger.i
+
+# target to preprocess a source file
+MobileApp/Users/Passenger/Passenger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.i
+.PHONY : MobileApp/Users/Passenger/Passenger.cpp.i
+
+MobileApp/Users/Passenger/Passenger.s: MobileApp/Users/Passenger/Passenger.cpp.s
+
+.PHONY : MobileApp/Users/Passenger/Passenger.s
+
+# target to generate assembly for a file
+MobileApp/Users/Passenger/Passenger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/Passenger/Passenger.cpp.s
+.PHONY : MobileApp/Users/Passenger/Passenger.cpp.s
+
+MobileApp/Users/User.o: MobileApp/Users/User.cpp.o
+
+.PHONY : MobileApp/Users/User.o
+
+# target to build an object file
+MobileApp/Users/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/User.cpp.o
+.PHONY : MobileApp/Users/User.cpp.o
+
+MobileApp/Users/User.i: MobileApp/Users/User.cpp.i
+
+.PHONY : MobileApp/Users/User.i
+
+# target to preprocess a source file
+MobileApp/Users/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/User.cpp.i
+.PHONY : MobileApp/Users/User.cpp.i
+
+MobileApp/Users/User.s: MobileApp/Users/User.cpp.s
+
+.PHONY : MobileApp/Users/User.s
+
+# target to generate assembly for a file
+MobileApp/Users/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/MobileApp/Users/User.cpp.s
+.PHONY : MobileApp/Users/User.cpp.s
+
+Server/Server.o: Server/Server.cpp.o
+
+.PHONY : Server/Server.o
+
+# target to build an object file
+Server/Server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Server/Server.cpp.o
+.PHONY : Server/Server.cpp.o
+
+Server/Server.i: Server/Server.cpp.i
+
+.PHONY : Server/Server.i
+
+# target to preprocess a source file
+Server/Server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Server/Server.cpp.i
+.PHONY : Server/Server.cpp.i
+
+Server/Server.s: Server/Server.cpp.s
+
+.PHONY : Server/Server.s
+
+# target to generate assembly for a file
+Server/Server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/Server/Server.cpp.s
+.PHONY : Server/Server.cpp.s
+
+WendexMaps/Address.o: WendexMaps/Address.cpp.o
+
+.PHONY : WendexMaps/Address.o
+
+# target to build an object file
+WendexMaps/Address.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.o
+.PHONY : WendexMaps/Address.cpp.o
+
+WendexMaps/Address.i: WendexMaps/Address.cpp.i
+
+.PHONY : WendexMaps/Address.i
+
+# target to preprocess a source file
+WendexMaps/Address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.i
+.PHONY : WendexMaps/Address.cpp.i
+
+WendexMaps/Address.s: WendexMaps/Address.cpp.s
+
+.PHONY : WendexMaps/Address.s
+
+# target to generate assembly for a file
+WendexMaps/Address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WendexTaxi.dir/build.make CMakeFiles/WendexTaxi.dir/WendexMaps/Address.cpp.s
+.PHONY : WendexMaps/Address.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +421,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... WendexTaxi"
+	@echo "... DataBase/DataBase.o"
+	@echo "... DataBase/DataBase.i"
+	@echo "... DataBase/DataBase.s"
+	@echo "... Gateways/PassengerGateway/PassengerGateway.o"
+	@echo "... Gateways/PassengerGateway/PassengerGateway.i"
+	@echo "... Gateways/PassengerGateway/PassengerGateway.s"
+	@echo "... MobileApp/Cars/Car.o"
+	@echo "... MobileApp/Cars/Car.i"
+	@echo "... MobileApp/Cars/Car.s"
+	@echo "... MobileApp/Orders/Order.o"
+	@echo "... MobileApp/Orders/Order.i"
+	@echo "... MobileApp/Orders/Order.s"
+	@echo "... MobileApp/Users/Driver/Driver.o"
+	@echo "... MobileApp/Users/Driver/Driver.i"
+	@echo "... MobileApp/Users/Driver/Driver.s"
+	@echo "... MobileApp/Users/Passenger/Passenger.o"
+	@echo "... MobileApp/Users/Passenger/Passenger.i"
+	@echo "... MobileApp/Users/Passenger/Passenger.s"
+	@echo "... MobileApp/Users/User.o"
+	@echo "... MobileApp/Users/User.i"
+	@echo "... MobileApp/Users/User.s"
+	@echo "... Server/Server.o"
+	@echo "... Server/Server.i"
+	@echo "... Server/Server.s"
+	@echo "... WendexMaps/Address.o"
+	@echo "... WendexMaps/Address.i"
+	@echo "... WendexMaps/Address.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
