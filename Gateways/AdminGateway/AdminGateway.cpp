@@ -10,7 +10,12 @@ AdminGateway::AdminGateway() { };
 /* ---> Drivers Methods <--- */
 
 // Admin don't need to know password os driver
-void AdminGateway::driverEnter(string phoneNumber) {
+void AdminGateway::driverEnter(string adminPhoneNumber, string phoneNumber) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (!Server::request() -> isDriverRegistered(phoneNumber)) {
         cout << "Driver with such number does not exist!" << endl;
         return;
@@ -19,7 +24,12 @@ void AdminGateway::driverEnter(string phoneNumber) {
     Server::request() -> driverEnter(phoneNumber);
 }
 
-void AdminGateway::driverExit(string phoneNumber) {
+void AdminGateway::driverExit(string adminPhoneNumber, string phoneNumber) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (!Server::request() -> isDriverOnline(phoneNumber)) {
         cout << "Driver is not logged in!" << endl;
         return;
@@ -28,7 +38,12 @@ void AdminGateway::driverExit(string phoneNumber) {
     Server::request() -> driverExit(phoneNumber);
 }
 
-void AdminGateway::registerDriver(Driver *driver) {
+void AdminGateway::registerDriver(string adminPhoneNumber, Driver *driver) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (Server::request() -> isDriverRegistered(driver -> getPhoneNumber())) {
         cout << "Driver is already registered!" << endl;
         return;
@@ -37,7 +52,12 @@ void AdminGateway::registerDriver(Driver *driver) {
     Server::request() -> registerDriver(driver);
 }
 
-void AdminGateway::findOrder(string phoneNumber) {
+void AdminGateway::findOrder(string adminPhoneNumber, string phoneNumber) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (!Server::request() -> isDriverOnline(phoneNumber)) {
         cout << "Driver is not logged in!" << endl;
         return;
@@ -57,7 +77,12 @@ void AdminGateway::findOrder(string phoneNumber) {
     Server::request() -> findOrder(phoneNumber);
 }
 
-void AdminGateway::addCar(string phoneNumber, Car *car) {
+void AdminGateway::addCar(string adminPhoneNumber, string phoneNumber, Car *car) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (!Server::request() -> isDriverOnline(phoneNumber)) {
         cout << "Driver is not logged in!" << endl;
         return;
@@ -69,7 +94,12 @@ void AdminGateway::addCar(string phoneNumber, Car *car) {
 /* ---> Passengers Methods <--- */
 
 // Admin don't need to know password of passenger
-void AdminGateway::passengerEnter(string phoneNumber) {
+void AdminGateway::passengerEnter(string adminPhoneNumber, string phoneNumber) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (!Server::request()->isPassengerRegistered(phoneNumber)) {
         cout << "Passenger with such number does not exist!" << endl;
         return;
@@ -78,7 +108,12 @@ void AdminGateway::passengerEnter(string phoneNumber) {
     Server::request() -> passengerEnter(phoneNumber);
 }
 
-void AdminGateway::passengerExit(string phoneNumber) {
+void AdminGateway::passengerExit(string adminPhoneNumber, string phoneNumber) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (!Server::request() -> isPassengerOnline(phoneNumber)) {
         cout << "Passenger is not logged in!" << endl;
         return;
@@ -87,7 +122,12 @@ void AdminGateway::passengerExit(string phoneNumber) {
     Server::request() -> passengerExit(phoneNumber);
 }
 
-void AdminGateway::registerPassenger(Passenger *passenger) {
+void AdminGateway::registerPassenger(string adminPhoneNumber, Passenger *passenger) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (Server::request() -> isPassengerRegistered(passenger -> getPhoneNumber())) {
         cout << "Passenger is already registered!" << endl;
         return;
@@ -95,7 +135,12 @@ void AdminGateway::registerPassenger(Passenger *passenger) {
     Server::request() -> registerPassenger(passenger);
 }
 
-void AdminGateway::makeOrder(string phoneNumber, Address from, Address to, CarType carType) {
+void AdminGateway::makeOrder(string adminPhoneNumber, string phoneNumber, Address from, Address to, CarType carType) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
     if (!Server::request() -> isPassengerOnline(phoneNumber)) {
         cout << "Passenger is not logged in!" << endl;
         return;
@@ -117,6 +162,12 @@ void AdminGateway::adminEnter(string phoneNumber, string password) {
         return;
     }
 
+    if (Server::request() -> isAdminOnline(phoneNumber)) {
+        cout << "Admin is already login!" << endl;
+        return;
+    }
+
+
     Server::request() -> adminEnter(phoneNumber);
 }
 
@@ -130,6 +181,14 @@ void AdminGateway::adminExit(string phoneNumber) {
     Server::request() -> adminExit(phoneNumber);
 }
 
+void AdminGateway::validateDriver(string adminPhoneNumber, string phoneNumber) {
+    if (!Server::request() -> isAdminOnline(adminPhoneNumber)) {
+        cout << "Admin is not logged in!" << endl;
+        return;
+    }
+
+    Server::request() -> validateDriver(phoneNumber);
+}
 
 void AdminGateway::registerAdmin(Admin *admin) {
     if (Server::request() -> isAdminRegistered(admin -> getPhoneNumber())) {

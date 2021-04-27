@@ -19,23 +19,24 @@ public:
 
 public:
     /* ---> All rivers Methods <--- */
-    void driverEnter(string phoneNumber);
-    void driverExit(string phoneNumber);
-    void registerDriver(Driver *driver);
-    void findOrder(string phoneNumber);
-    void addCar(string phoneNumber, Car *car);
+    void driverEnter(string adminPhoneNumber, string phoneNumber);
+    void driverExit(string adminPhoneNumber, string phoneNumber);
+    void registerDriver(string adminPhoneNumber, Driver *driver);
+    void findOrder(string adminPhoneNumber, string phoneNumber);
+    void addCar(string adminPhoneNumber, string phoneNumber, Car *car);
 
     /* ---> All passengers Methods <--- */
-    void passengerEnter(string phoneNumber);
-    void passengerExit(string phoneNumber);
-    void registerPassenger(Passenger *passenger);
-    void makeOrder(string phoneNumber, Address from, Address to, CarType carType);
+    void passengerEnter(string adminPhoneNumber, string phoneNumber);
+    void passengerExit(string adminPhoneNumber, string phoneNumber);
+    void registerPassenger(string adminPhoneNumber, Passenger *passenger);
+    void makeOrder(string adminPhoneNumber, string phoneNumber, Address from, Address to, CarType carType);
 
     /* ---> Admins Methods <--- */
     void adminEnter(string phoneNumber, string password);
     void adminExit(string phoneNumber);
     void registerAdmin(Admin *admin);
     void printNumberOfAllUsers(string phoneNumber);
+    void validateDriver(string adminPhoneNumber, string phoneNumber);
     void blockCommand(string phoneNumber);
 };
 

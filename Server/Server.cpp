@@ -19,6 +19,10 @@ bool Server::isDriverRegistered(string phoneNumber) {
         return false;
 }
 
+bool Server::isDriverValidated(string phoneNumber) {
+    return DataBase::request() -> getDrivers()[phoneNumber] -> getValidationStatus();
+}
+
 bool Server::isDriverOnline(string phoneNumber) {
     return onlineDrivers[phoneNumber];
 }
@@ -158,7 +162,7 @@ void Server::passengerEnter(string phoneNumber) {
 void Server::getOrderInfo(string phoneNumber, Address from, Address to, CarType carType) {
     string responseAddress;
     cout << endl << "You can change address_to to your pinned address. Do you want it?" << endl;
-    cout << "Enter yes/no "; cin >> responseAddress;
+    cout << "Enter yes/no: "; cin >> responseAddress;
     // Make all letter in lower case
     for (auto &i: responseAddress)
         i = tolower(i);
@@ -280,3 +284,7 @@ bool Server::isAdminRegistered(string phoneNumber) {
         return false;
 }
 
+void Server::validateDriver(string phoneNumber) {
+    DataBase::request() -> getDrivers()[phoneNumber] -> validateDriver();
+    cout << "Driver successfully validated" << endl;
+}

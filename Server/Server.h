@@ -39,6 +39,7 @@ public:
     bool isDriverOnline(string phoneNumber);
     bool isDriverPasswordCorrect(string number, string password);
     bool isDriverHasCars(string phoneNumber);
+    bool isDriverValidated(string phoneNumber);
 
     /*-----> Passenger Methods <-----*/
     void passengerEnter(string phoneNumber);
@@ -53,6 +54,7 @@ public:
     /* ---> Admins Methods <--- */
     void adminEnter(string phoneNumber);
     void adminExit(string phoneNumber);
+    void validateDriver(string phoneNumber);
     void printDataBaseStatistics();
     void registerAdmin(Admin *admin);
     bool isAdminPasswordCorrect(string phoneNumber, string password);

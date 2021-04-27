@@ -62,3 +62,11 @@ int Driver::getNumberOfCars() {
 Car *Driver::getCurrentCar() {
     return currentCar;
 }
+
+void Driver::validateDriver() {
+    isValidated = true;
+}
+
+bool Driver::getValidationStatus() {
+    return isValidated;
+}

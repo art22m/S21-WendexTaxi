@@ -3,7 +3,7 @@
 //
 #include "Admin.h"
 
-Admin::Admin(string name, string password, string phoneNumber) {
+Admin::Admin(string name, string phoneNumber, string password) {
     this -> name = name;
     this -> password = password;
     this -> phoneNumber = phoneNumber;
@@ -25,17 +25,26 @@ string Admin::getPhoneNumber() {
     return phoneNumber;
 }
 
-void Admin::enter(string phoneNumber, string password) {
-    gateway -> adminEnter(phoneNumber, password);
+void Admin::enter(string password) {
+    gateway -> adminEnter(getPhoneNumber(), password);
 }
 
-void Admin::registerAccount(Admin *admin) {
+void Admin::exit() {
+    gateway -> adminExit(getPhoneNumber());
+}
+
+void Admin::registerAccount() {
     gateway -> registerAdmin(this);
 }
 
 void Admin::printNumberOfUsers() {
     gateway -> printNumberOfAllUsers(getPhoneNumber());
 }
+
+void Admin::validateDriver(string phoneNumber) {
+    gateway -> validateDriver(getPhoneNumber(),phoneNumber);
+}
+
 
 void Admin::blockCommand(string phoneNumber) {
 
@@ -44,39 +53,39 @@ void Admin::blockCommand(string phoneNumber) {
 /* Drivers Methods */
 
 void Admin::enterDriver(string phoneNumber) {
-    gateway -> driverEnter(phoneNumber);
+    gateway -> driverEnter(getPhoneNumber(), phoneNumber);
 }
 
 void Admin::exitDriver(string phoneNumber) {
-    gateway -> driverExit(phoneNumber);
+    gateway -> driverExit(getPhoneNumber(), phoneNumber);
 }
 
 void Admin::registerDriverAccount(Driver *driver) {
-    gateway -> registerDriver(driver);
+    gateway -> registerDriver(getPhoneNumber(), driver);
 }
 
 void Admin::registerCar(string phoneNumber, Car car) {
-    gateway -> addCar(phoneNumber, &car);
+    gateway -> addCar(getPhoneNumber(), phoneNumber, &car);
 }
 
 void Admin::findOrder(string phoneNumber) {
-    gateway -> findOrder(phoneNumber);
+    gateway -> findOrder(getPhoneNumber(), phoneNumber);
 }
 
 /* Passengers Methods */
 
 void Admin::enterPassenger(string phoneNumber) {
-    gateway -> passengerEnter(phoneNumber);
+    gateway -> passengerEnter(getPhoneNumber(), phoneNumber);
 }
 
 void Admin::exitPassenger(string phoneNumber) {
-    gateway -> passengerExit(phoneNumber);
+    gateway -> passengerExit(getPhoneNumber(), phoneNumber);
 }
 
 void Admin::registerPassengerAccount(Passenger *passenger) {
-    gateway ->registerPassenger(passenger);
+    gateway ->registerPassenger(getPhoneNumber(), passenger);
 }
 
 void Admin::makeOrder(string phoneNumber, Address from, Address to, CarType carType) {
-    gateway -> makeOrder(phoneNumber, from, to, carType);
+    gateway -> makeOrder(getPhoneNumber(), phoneNumber, from, to, carType);
 }

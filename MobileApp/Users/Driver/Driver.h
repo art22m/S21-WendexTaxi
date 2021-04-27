@@ -22,13 +22,17 @@ public:
     void addCar(Car *car); // Add the car to the array of cars
     void findOrder();
     void changeCurrentCar();
+    void validateDriver(); // Assume, that only admin can call this method
+    bool getValidationStatus(); // Return true / false depending on whether the order is the first
     Car* getCurrentCar();
     int getNumberOfCars();
+
+
 private:
     vector <Car*> cars;
     Car *currentCar = nullptr;
     int numberOfRides;
-
+    bool isValidated = false;
 private:
     DriverGateway *gateway;
 };

@@ -13,7 +13,7 @@ using namespace std;
 
 class Admin {
 public:
-    Admin(string name, string password, string phoneNumber);
+    Admin(string name, string phoneNumber, string password);
     Admin();
 
 // Getters
@@ -24,10 +24,11 @@ public:
 
 public:
     /* Admins Methods */
-    void enter(string phoneNumber, string password);
-    void exit(string phoneNumber);
-    void registerAccount(Admin *admin);
+    void enter(string password);
+    void exit();
+    void registerAccount();
     void printNumberOfUsers();
+    void validateDriver(string phoneNumber);
     void blockCommand(string phoneNumber);
 
     /* Drivers Methods */

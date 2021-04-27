@@ -6,12 +6,17 @@
 DriverGateway::DriverGateway() { }
 
 void DriverGateway::driverEnter(string phoneNumber, string password) {
-    if (!Server::request()->isDriverRegistered(phoneNumber)) {
+    if (!Server::request() -> isDriverRegistered(phoneNumber)) {
         cout << "Driver with such number does not exist!" << endl;
         return;
     }
     if (!Server::request() -> isDriverPasswordCorrect(phoneNumber, password)) {
         cout << "Incorrect password! Try again." << endl;
+        return;
+    }
+
+    if (Server::request() -> isDriverOnline(phoneNumber)) {
+        cout << "Driver already login." << endl;
         return;
     }
 
@@ -39,6 +44,11 @@ void DriverGateway::registerDriver(Driver *driver) {
 void DriverGateway::findOrder(string phoneNumber) {
     if (!Server::request() -> isDriverOnline(phoneNumber)) {
         cout << "Driver is not logged in!" << endl;
+        return;
+    }
+
+    if(!Server::request() -> isDriverValidated(phoneNumber)) {
+        cout << "Your driver account is not validated. Please, write to support." << endl;
         return;
     }
 

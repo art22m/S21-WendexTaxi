@@ -15,6 +15,11 @@ void PassengerGateway::passengerEnter(string phoneNumber, string password) {
         return;
     }
 
+    if (Server::request() ->isPassengerOnline(phoneNumber)) {
+        cout << "Passenger already login." << endl;
+        return;
+    }
+
     Server::request() -> passengerEnter(phoneNumber);
 }
 
