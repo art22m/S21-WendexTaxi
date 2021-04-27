@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.cpp
+DataBase.h
+/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+
 /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
 ../MobileApp/Users/Driver/Driver.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
@@ -18,6 +22,10 @@
 map
 -
 
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.cpp
+AdminGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
+
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
 string
 -
@@ -30,6 +38,10 @@ string
 ../../MobileApp/Users/Passenger/Passenger.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
 
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.cpp
+DriverGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
+
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
 string
 -
@@ -40,6 +52,10 @@ string
 ../../MobileApp/Users/Driver/Driver.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
 
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.cpp
+PassengerGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
+
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
 string
 -
@@ -49,6 +65,10 @@ string
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
 ../../MobileApp/Users/Passenger/Passenger.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
+
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.cpp
+Car.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
 
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
 CarType.h
@@ -60,6 +80,10 @@ string
 
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
 
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.cpp
+Order.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
+
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
 ../Cars/CarType.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
@@ -67,6 +91,10 @@ string
 /Users/artmurashko/Desktop/WendexTaxi/WendexMaps.h
 
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h
+
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.cpp
+Admin.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
 
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
 string
@@ -76,17 +104,29 @@ string
 ../../../Gateways/AdminGateway/AdminGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
 
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.cpp
+Driver.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
+
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
 ../User.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 ../../../Gateways/DriverGateway/DriverGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
 
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.cpp
+Passenger.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
+
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
 ../User.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 ../../../Gateways/PassengerGateway/PassengerGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
+
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.cpp
+User.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
 iostream
@@ -99,6 +139,12 @@ iostream
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
 
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/UserFunctions.h
+
+/Users/artmurashko/Desktop/WendexTaxi/Server/Server.cpp
+Server.h
+/Users/artmurashko/Desktop/WendexTaxi/Server/Server.h
+ctime
+-
 
 /Users/artmurashko/Desktop/WendexTaxi/Server/Server.h
 ../DataBase/DataBase.h

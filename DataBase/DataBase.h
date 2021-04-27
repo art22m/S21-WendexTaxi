@@ -47,5 +47,4 @@ private:
     DataBase();
 };
 
-
 #endif //WENDEXTAXI_DATABASE_H

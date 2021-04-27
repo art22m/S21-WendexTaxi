@@ -1,6 +1,7 @@
 //
 // Created by Artem Murashko on 26.04.2021.
 //
+
 #ifndef WENDEXTAXI_PASSENGERGATEWAY_H
 #define WENDEXTAXI_PASSENGERGATEWAY_H
 

@@ -1,6 +1,7 @@
 //
 // Created by Artem Murashko on 26.04.2021.
 //
+
 #ifndef WENDEXTAXI_DRIVERGATEWAY_H
 #define WENDEXTAXI_DRIVERGATEWAY_H
 
@@ -24,6 +25,5 @@ public:
     void findOrder(string phoneNumber);
     void addCar(string phoneNumber, Car *car);
 };
-
 
 #endif //WENDEXTAXI_DRIVERGATEWAY_H

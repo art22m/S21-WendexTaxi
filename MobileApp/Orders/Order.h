@@ -1,6 +1,7 @@
 //
 // Created by Artem Murashko on 25.04.2021.
 //
+
 #ifndef WENDEXTAXI_ORDER_H
 #define WENDEXTAXI_ORDER_H
 #include "../Cars/CarType.h"
@@ -23,6 +24,5 @@ private:
     Address from;
     Address to;
 };
-
 
 #endif //WENDEXTAXI_ORDER_H

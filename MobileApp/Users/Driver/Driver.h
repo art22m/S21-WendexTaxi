@@ -1,6 +1,7 @@
 //
 // Created by Artem Murashko on 25.04.2021.
 //
+
 #ifndef WENDEXTAXI_DRIVER_H
 #define WENDEXTAXI_DRIVER_H
 
@@ -27,7 +28,6 @@ public:
     Car* getCurrentCar();
     int getNumberOfCars();
 
-
 private:
     vector <Car*> cars;
     Car *currentCar = nullptr;
@@ -36,6 +36,5 @@ private:
 private:
     DriverGateway *gateway;
 };
-
 
 #endif //WENDEXTAXI_DRIVER_H

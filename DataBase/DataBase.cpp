@@ -5,6 +5,8 @@
 
 DataBase::DataBase() { }
 
+/* ---------- */
+
 map <string, Driver*> DataBase::getDrivers() {
     return drivers;
 }
@@ -17,7 +19,7 @@ map <string, Admin *> DataBase::getAdmins() {
     return admins;
 }
 
-// ----------
+/* ---------- */
 
 void DataBase::addDriverEntity(Driver *driver) {
     drivers[driver -> getPhoneNumber()] = driver;
@@ -34,7 +36,7 @@ void DataBase::addAdminEntity(Admin *admin) {
     cout << "Admin successfully registered." << endl;
 }
 
-// --------
+/* ---------- */
 
 void DataBase::printDataBaseStatistics() {
     cout << "There are " << drivers.size() + passengers.size() + admins.size() << " users in the data base" << endl;

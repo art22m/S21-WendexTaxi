@@ -71,7 +71,8 @@ private:
     map <string, bool> onlineDrivers; // Map where key -> phone number and value -> bool value
     map <string, bool> onlineAdmins; // Map where key -> phone number and value -> bool value
     map <string, vector<UserFunctions>> blockedCommands; // Map where key -> phone number and value -> commands which blocked for the user
-    vector <Order> activeOrders;
+
+    vector <Order> activeOrders; // Array of available orders
 
     Server();
 };

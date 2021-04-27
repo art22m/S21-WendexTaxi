@@ -11,7 +11,6 @@
 
 using namespace std;
 
-
 class Car {
 public:
     Car(string model, string color, string licencePlate, CarType carType, Coordinates coordinates);
@@ -31,6 +30,5 @@ private:
     CarType carType;
     Coordinates coordinates = Coordinates();
 };
-
 
 #endif //WENDEXTAXI_CAR_H

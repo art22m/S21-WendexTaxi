@@ -6,7 +6,6 @@
 #define WENDEXTAXI_WENDEXMAPS_H
 
 // Include all files of pseudo library Wendex Maps
-
 #include "WendexMaps/Coordinates.h"
 #include "WendexMaps/Address.h"
 

@@ -1,6 +1,7 @@
 //
 // Created by Artem Murashko on 25.04.2021.
 //
+
 #ifndef WENDEXTAXI_USER_H
 #define WENDEXTAXI_USER_H
 
@@ -33,6 +34,5 @@ private:
     double rating;
     vector <Order> orders;
 };
-
 
 #endif //WENDEXTAXI_USER_H

@@ -1,6 +1,7 @@
 //
 // Created by Artem Murashko on 25.04.2021.
 //
+
 #ifndef WENDEXTAXI_PASSENGER_H
 #define WENDEXTAXI_PASSENGER_H
 
@@ -34,6 +35,5 @@ private:
     PaymentMethods paymentMethod = PaymentMethods::card;
     vector <Address> pinnedAddresses;
 };
-
 
 #endif //WENDEXTAXI_PASSENGER_H
