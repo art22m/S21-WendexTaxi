@@ -2,15 +2,15 @@
 
 Passenger p1("Artem Chernitsa", "+7123", "Sosiska123");
 Passenger p2("Ivan Razbil", "+7992", "PekaPeka");
+Passenger p3("Petr Smirnov", "+7246", "123");
 Driver d1("Seva Mikulik", "+7927", "Krendel333");
 Admin a1("Artem Murashko", "+7534", "Qeqeq");
 
 Car c1("Ranault Logan", "yellow", "AV122E", CarType::economy);
 Car c2("Ranault Almeta", "yellow", "AV121E", CarType::comfortPlus);
 
-//p1.pinAddress(Address("Egoriev Proezd", Coordinates()));
-//p1.makeOrder(Address("Ulitsa Lenina", Coordinates()), Address("Prospect Izmailovo", Coordinates()), CarType::economy);
 using namespace std;
+
 int main() {
     /* ---> Register first admin and make actions with him  <--- */
     a1.enter("Qeqeq"); // Admin with such number does not exist!
@@ -62,5 +62,13 @@ int main() {
                  Address("Sport Ulitsa, 2k4", Coordinates()), CarType::comfortPlus); // Admin created order for user p2
     a1.findOrder("+7927"); // Here admin find order for driver d1 (CarType you can choose in the previous calls)
 
+    a1.registerPassengerAccount(&p3); // Passenger successfully registered.
+    p3.enter("123"); // Passenger successfully entered.
+    a1.blockCommand("+7246", UserFunctions::exit); // Function blocked successfully.
+    p3.exit(); // This function blocked
+    a1.unblockCommand("+7246", UserFunctions::exit); // Function unblocked successfully
+    p3.exit(); // Passenger successfully exited.
+    a1.blockCommand("+7246", UserFunctions::login); // Function blocked successfully
+    p3.enter("123"); // This function blocked
     return 0;
 }

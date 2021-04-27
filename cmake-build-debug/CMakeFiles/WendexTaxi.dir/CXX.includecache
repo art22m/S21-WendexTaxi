@@ -71,6 +71,8 @@ string
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
 string
 -
+../UserFunctions.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/UserFunctions.h
 ../../../Gateways/AdminGateway/AdminGateway.h
 /Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
 
@@ -96,17 +98,15 @@ iostream
 ../Cars/Car.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
 
-/Users/artmurashko/Desktop/WendexTaxi/Server/Server.cpp
-Server.h
-/Users/artmurashko/Desktop/WendexTaxi/Server/Server.h
-ctime
--
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/UserFunctions.h
 
 /Users/artmurashko/Desktop/WendexTaxi/Server/Server.h
 ../DataBase/DataBase.h
 /Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
 ../MobileApp/Orders/Order.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
+../MobileApp/Users/UserFunctions.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/UserFunctions.h
 ../MobileApp/Users/Driver/Driver.h
 /Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
 ../MobileApp/Users/Passenger/Passenger.h
@@ -135,4 +135,34 @@ random
 -
 time.h
 -
+
+/Users/artmurashko/Desktop/WendexTaxi/WendexTaxi.h
+MobileApp/Users/User.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h
+MobileApp/Users/Admin/Admin.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h
+MobileApp/Users/Driver/Driver.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h
+MobileApp/Users/Passenger/Passenger.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h
+MobileApp/Cars/Car.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h
+MobileApp/Cars/CarType.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h
+MobileApp/Orders/Order.h
+/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h
+Gateways/PassengerGateway/PassengerGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h
+Gateways/DriverGateway/DriverGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h
+Gateways/AdminGateway/AdminGateway.h
+/Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h
+Server/Server.h
+/Users/artmurashko/Desktop/WendexTaxi/Server/Server.h
+DataBase/DataBase.h
+/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h
+
+/Users/artmurashko/Desktop/WendexTaxi/main.cpp
+WendexTaxi.h
+/Users/artmurashko/Desktop/WendexTaxi/WendexTaxi.h
 

@@ -146,6 +146,9 @@
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/UserFunctions.h">
+			<Option target="WendexTaxi"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Server/Server.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>

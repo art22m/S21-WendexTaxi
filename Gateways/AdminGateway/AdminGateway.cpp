@@ -171,6 +171,13 @@ void AdminGateway::adminEnter(string phoneNumber, string password) {
     Server::request() -> adminEnter(phoneNumber);
 }
 
+void AdminGateway::blockCommand(string phoneNumber, UserFunctions userFunction) {
+    Server::request() -> blockCommand(phoneNumber, userFunction);
+}
+
+void AdminGateway::unblockCommand(string phoneNumber, UserFunctions userFunction) {
+    Server::request() -> unblockCommand(phoneNumber, userFunction);
+}
 
 void AdminGateway::adminExit(string phoneNumber) {
     if (!Server::request() -> isAdminOnline(phoneNumber)) {

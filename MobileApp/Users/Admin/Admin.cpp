@@ -46,8 +46,12 @@ void Admin::validateDriver(string phoneNumber) {
 }
 
 
-void Admin::blockCommand(string phoneNumber) {
+void Admin::blockCommand(string phoneNumber, UserFunctions userFunction) {
+    gateway -> blockCommand(phoneNumber, userFunction);
+}
 
+void Admin::unblockCommand(string phoneNumber, UserFunctions userFunction) {
+    gateway -> unblockCommand(phoneNumber, userFunction);
 }
 
 /* Drivers Methods */

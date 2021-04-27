@@ -37,7 +37,8 @@ public:
     void registerAdmin(Admin *admin);
     void printNumberOfAllUsers(string phoneNumber);
     void validateDriver(string adminPhoneNumber, string phoneNumber);
-    void blockCommand(string phoneNumber);
+    void blockCommand(string phoneNumber, UserFunctions userFunction);
+    void unblockCommand(string phoneNumber, UserFunctions userFunction);
 };
 
 #endif //WENDEXTAXI_ADMINGATEWAY_H

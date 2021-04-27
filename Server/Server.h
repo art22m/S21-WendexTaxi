@@ -7,6 +7,7 @@
 
 #include "../DataBase/DataBase.h"
 #include "../MobileApp/Orders/Order.h"
+#include "../MobileApp/Users/UserFunctions.h"
 
 class Driver;
 #include "../MobileApp/Users/Driver/Driver.h"
@@ -55,17 +56,21 @@ public:
     void adminEnter(string phoneNumber);
     void adminExit(string phoneNumber);
     void validateDriver(string phoneNumber);
+    void blockCommand(string phoneNumber, UserFunctions userFunction);
+    void unblockCommand(string phoneNumber, UserFunctions userFunction);
     void printDataBaseStatistics();
     void registerAdmin(Admin *admin);
     bool isAdminPasswordCorrect(string phoneNumber, string password);
     bool isAdminRegistered(string phoneNumber);
     bool isAdminOnline(string phoneNumber);
 
+    bool isBlocked(string phoneNumber, UserFunctions userFunction);
+
 private:
     map <string, bool> onlinePassengers; // Map where key -> phone number and value -> bool value (false - not online and vise versa)
     map <string, bool> onlineDrivers; // Map where key -> phone number and value -> bool value
     map <string, bool> onlineAdmins; // Map where key -> phone number and value -> bool value
-
+    map <string, vector<UserFunctions>> blockedCommands; // Map where key -> phone number and value -> commands which blocked for the user
     vector <Order> activeOrders;
 
     Server();

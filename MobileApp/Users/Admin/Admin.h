@@ -5,10 +5,10 @@
 #define WENDEXTAXI_ADMIN_H
 
 #include <string>
+#include "../UserFunctions.h"
 
 class AdminGateway;
 #include "../../../Gateways/AdminGateway/AdminGateway.h"
-
 using namespace std;
 
 class Admin {
@@ -29,7 +29,8 @@ public:
     void registerAccount();
     void printNumberOfUsers();
     void validateDriver(string phoneNumber);
-    void blockCommand(string phoneNumber);
+    void blockCommand(string phoneNumber, UserFunctions userFunction);
+    void unblockCommand(string phoneNumber, UserFunctions userFunction);
 
     /* Drivers Methods */
     void enterDriver(string phoneNumber);

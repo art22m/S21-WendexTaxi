@@ -37,20 +37,39 @@ bool Server::isDriverPasswordCorrect(string phoneNumber, string password) {
 }
 
 void Server::driverEnter(string phoneNumber) {
+    if (isBlocked(phoneNumber, UserFunctions::login)) {
+        cout << "This function blocked" << endl;;
+        return;
+    }
+
     onlineDrivers[phoneNumber] = true;
     cout << "Driver successfully entered." << endl;
 }
 
 void Server::driverExit(string phoneNumber) {
+    if (isBlocked(phoneNumber, UserFunctions::exit)) {
+        cout << "This function blocked" << endl;
+        return;
+    }
+
     onlineDrivers[phoneNumber] = false;
     cout << "Driver successfully exited." << endl;
 }
 
 void Server::registerDriver(Driver *driver) {
+    if (isBlocked(driver -> getPhoneNumber(), UserFunctions::registerUser)) {
+        cout << "This function blocked" << endl;
+        return;
+    }
+
     DataBase::request() -> addDriverEntity(driver);
 }
 
 void Server::findOrder(string phoneNumber) {
+    if (isBlocked(phoneNumber, UserFunctions::findOrder)) {
+        cout << "This function blocked" << endl;
+        return;
+    }
     vector <Order> availableOrders; // available orders for current driver
     CarType currentCarType = getCurrentCar(phoneNumber) -> getCarType();
 
@@ -146,20 +165,40 @@ bool Server::isPassengerRegistered(string phoneNumber) {
 }
 
 void Server::registerPassenger(Passenger *passenger) {
+    if (isBlocked(passenger -> getPhoneNumber(), UserFunctions::registerUser)) {
+        cout << "This function blocked" << endl;
+        return;
+    }
+
     DataBase::request() -> addPassengerEntity(passenger);
 }
 
 void Server::passengerExit(string phoneNumber) {
+    if (isBlocked(phoneNumber, UserFunctions::exit)) {
+        cout << "This function blocked" << endl;
+        return;
+    }
+
     onlinePassengers[phoneNumber] = false;
     cout << "Passenger successfully exited." << endl;
 }
 
 void Server::passengerEnter(string phoneNumber) {
+    if (isBlocked(phoneNumber, UserFunctions::login)) {
+        cout << "This function blocked" << endl;
+        return;
+    }
+
     onlinePassengers[phoneNumber] = true;
     cout << "Passenger successfully entered." << endl;
 }
 
 void Server::getOrderInfo(string phoneNumber, Address from, Address to, CarType carType) {
+    if (isBlocked(phoneNumber, UserFunctions::makeOrder)) {
+        cout << "This function blocked" << endl;
+        return;
+    }
+
     string responseAddress;
     cout << endl << "You can change address_to to your pinned address. Do you want it?" << endl;
     cout << "Enter yes/no: "; cin >> responseAddress;
@@ -206,6 +245,7 @@ void Server::getOrderInfo(string phoneNumber, Address from, Address to, CarType 
             cost = distance * 4;
             break;
     }
+
     int timeOfRide = rand() % 100;
     cout << endl << "The ride from " << from.getAddress() << " to " << to.getAddress() << " will cost " << cost << " rubles" <<  endl;
     cout << "Ride time: " << timeOfRide << " minutes" << endl;
@@ -287,4 +327,29 @@ bool Server::isAdminRegistered(string phoneNumber) {
 void Server::validateDriver(string phoneNumber) {
     DataBase::request() -> getDrivers()[phoneNumber] -> validateDriver();
     cout << "Driver successfully validated" << endl;
+}
+
+void Server::blockCommand(string phoneNumber, UserFunctions userFunction) {
+    blockedCommands[phoneNumber].push_back(userFunction);
+    cout << "Function blocked successfully" << endl;
+}
+
+void Server::unblockCommand(string phoneNumber, UserFunctions userFunction) {
+    for (int id = 0; id < blockedCommands[phoneNumber].size(); ++id) {
+        if (blockedCommands[phoneNumber][id] == userFunction) {
+            blockedCommands[phoneNumber].erase(blockedCommands[phoneNumber].begin() + id);
+            cout << "Function unblocked successfully" << endl;
+            break;
+        }
+    }
+}
+
+bool Server::isBlocked(string phoneNumber, UserFunctions userFunction) {
+    bool flag = false;
+
+    for (auto func : blockedCommands[phoneNumber])
+        if (func == userFunction)
+            flag = true;
+
+    return flag;
 }
