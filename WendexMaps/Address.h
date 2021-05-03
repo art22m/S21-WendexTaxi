@@ -1,24 +1,24 @@
 //
-// Created by Artem Murashko on 13.04.2021.
+// Created by Artem Murashko on 25.04.2021.
 //
-
 #ifndef WENDEXTAXI_ADDRESS_H
 #define WENDEXTAXI_ADDRESS_H
 
-#include <string>
 #include "Coordinates.h"
+#include <string>
+
+using namespace std;
 
 class Address {
 public:
-    Address(std::string address, Coordinates coordinates);
+    Address(string address, Coordinates coordinates);
     Address();
 
-public:
-    std::string getAddress();
+    string getAddress();
     Coordinates getCoordinates();
 
 private:
-    std::string address;
+    string address;
     Coordinates coordinates = Coordinates();
 };
 

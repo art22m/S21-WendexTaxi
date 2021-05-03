@@ -3,4 +3,27 @@ project(WendexTaxi)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(WendexTaxi main.cpp Cars/Car.cpp Cars/Car.h Cars/CarType.h Cars/CarColor.h WendexMaps/Coordinates.h Cars/Economy.cpp Cars/Economy.h Cars/Comfort.cpp Cars/Comfort.h Cars/ComfortPlus.cpp Cars/ComfortPlus.h Cars/Business.cpp Cars/Business.h Users/Passenger.cpp Users/Passenger.h WendexMoney/PaymentMethods.h Users/User.cpp Users/User.h WendexMaps/Address.cpp WendexMaps/Address.h Orders/Order.cpp Orders/Order.h Users/Driver.cpp Users/Driver.h Gateways/PassengerGateway.cpp Gateways/PassengerGateway.h Gateways/DriverGateway.cpp Gateways/DriverGateway.h Service/System.cpp Service/System.h WendexTaxi.h)
+add_executable( WendexTaxi main.cpp
+                WendexTaxi.h MobileApp/Users/User.cpp
+                MobileApp/Users/User.h
+                MobileApp/Users/Driver/Driver.cpp
+                MobileApp/Users/Driver/Driver.h
+                MobileApp/Users/Passenger/Passenger.cpp
+                MobileApp/Users/Passenger/Passenger.h
+                MobileApp/Cars/Car.cpp
+                MobileApp/Cars/Car.h
+                MobileApp/Cars/CarType.h
+                WendexMaps/Coordinates.h
+                Server/Server.cpp
+                Server/Server.h
+                MobileApp/Orders/Order.cpp
+                MobileApp/Orders/Order.h
+                WendexMaps/Address.cpp
+                WendexMaps/Address.h
+                WendexMaps.h
+                DataBase/DataBase.cpp
+                DataBase/DataBase.h
+                Gateways/PassengerGateway/PassengerGateway.cpp
+                Gateways/PassengerGateway/PassengerGateway.h
+                Gateways/DriverGateway/DriverGateway.cpp
+                Gateways/DriverGateway/DriverGateway.h MobileApp/Orders/PaymentMethods.h Gateways/AdminGateway/AdminGateway.cpp Gateways/AdminGateway/AdminGateway.h MobileApp/Users/Admin/Admin.cpp MobileApp/Users/Admin/Admin.h MobileApp/Users/UserFunctions.h)

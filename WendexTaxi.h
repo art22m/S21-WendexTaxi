@@ -6,22 +6,24 @@
 #ifndef WENDEXTAXI_WENDEXTAXI_H
 #define WENDEXTAXI_WENDEXTAXI_H
 
-// Include all files from the Cars folder
-#include "Cars/Business.h"
-#include "Cars/Comfort.h"
-#include "Cars/ComfortPlus.h"
-#include "Cars/Economy.h"
-#include "Cars/Car.h"
-#include "Cars/CarType.h"
-#include "Cars/CarColor.h"
-
-// Include all files from the Users folder
-#include "Users/Driver.h"
-#include "Users/Passenger.h"
-#include "Users/User.h"
+// Include all files from the MobileApp folder
+#include "MobileApp/Users/User.h"
+#include "MobileApp/Users/Admin/Admin.h"
+#include "MobileApp/Users/Driver/Driver.h"
+#include "MobileApp/Users/Passenger/Passenger.h"
+#include "MobileApp/Cars/Car.h"
+#include "MobileApp/Cars/CarType.h"
+#include "MobileApp/Orders/Order.h"
 
 // Include all files from the Gateways folder
-#include "Gateways/DriverGateway.h"
-#include "Gateways/PassengerGateway.h"
+#include "Gateways/PassengerGateway/PassengerGateway.h"
+#include "Gateways/DriverGateway/DriverGateway.h"
+#include "Gateways/AdminGateway/AdminGateway.h"
+
+// Include all files from the Server folder
+#include "Server/Server.h"
+
+// Include all files from the DataBase folder
+#include "DataBase/DataBase.h"
 
 #endif //WENDEXTAXI_WENDEXTAXI_H

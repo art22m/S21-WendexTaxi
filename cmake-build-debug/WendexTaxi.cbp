@@ -80,82 +80,82 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Business.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/DataBase/DataBase.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Car.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/AdminGateway/AdminGateway.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/CarColor.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/CarType.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway/DriverGateway.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Comfort.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway/PassengerGateway.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/ComfortPlus.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/Car.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Cars/CarType.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Cars/Economy.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/Order.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/DriverGateway.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Orders/PaymentMethods.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Gateways/PassengerGateway.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Admin/Admin.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Orders/Order.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Driver/Driver.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Service/System.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Service/System.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/Passenger/Passenger.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Driver.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/User.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/MobileApp/Users/UserFunctions.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/Passenger.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Server/Server.cpp">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/User.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Server/Server.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/Users/User.h">
+		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMaps.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Address.cpp">
@@ -165,9 +165,6 @@
 			<Option target="WendexTaxi"/>
 		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMaps/Coordinates.h">
-			<Option target="WendexTaxi"/>
-		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexMoney/PaymentMethods.h">
 			<Option target="WendexTaxi"/>
 		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/WendexTaxi/WendexTaxi.h">
